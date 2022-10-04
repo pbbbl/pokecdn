@@ -99,4 +99,6 @@ const buildDataPokemons = () => {
     });
     return files;
 };
+
 buildDataPokemons();
+
