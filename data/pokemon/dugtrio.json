@@ -1,0 +1,546 @@
+{
+    "id": 51,
+    "speciesId": 51,
+    "key": "dugtrio",
+    "label": "Dugtrio",
+    "spawns": [
+        {
+            "pokemonId": 51,
+            "area": "Diglett’s Cave",
+            "rate": "5%",
+            "levels": "13-18",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dugtrio"
+        }
+    ],
+    "index": 50,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm28",
+            "item": "TM28",
+            "label": "Tri Attack",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to either burn, freeze, or paralyze opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm41",
+            "item": "TM41",
+            "label": "Earthquake",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Viridian City",
+                "Defeat Gym Leader [SPOILER](Giovanni)"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm56",
+            "item": "TM56",
+            "label": "Stealth Rock",
+            "Types": [
+                "Rock"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Deals either 1/32, 1/16, 1/8, 1/4 or 1/2 opponent's max HP in damage when it switches into battle, depending on type.",
+            "howToGet": [
+                "Victory Road",
+                "1F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "hasty",
+        "label": "Hasty",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "triAttackNormal",
+            "move": "Tri Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Has a 20% chance to burn, freeze, or paralyze the target.",
+            "level": 0
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 1
+        },
+        {
+            "key": "growlNormal",
+            "move": "Growl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "100%",
+            "effect": "Lowers the target's Attack by one stage.",
+            "level": 1
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 1
+        },
+        {
+            "key": "scratchNormal",
+            "move": "Scratch",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "screechNormal",
+            "move": "Screech",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "85%",
+            "effect": "Lowers the target's Defense by two stages.",
+            "level": 1
+        },
+        {
+            "key": "triAttackNormal",
+            "move": "Tri Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Has a 20% chance to burn, freeze, or paralyze the target.",
+            "level": 1
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 4
+        },
+        {
+            "key": "growlNormal",
+            "move": "Growl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "100%",
+            "effect": "Lowers the target's Attack by one stage.",
+            "level": 8
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 12
+        },
+        {
+            "key": "furySwipesNormal",
+            "move": "Fury Swipes",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "18",
+            "pp": "15",
+            "acc": "80%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 15
+        },
+        {
+            "key": "digGround",
+            "move": "Dig",
+            "Types": [
+                "ground"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "User digs underground, dodging all attacks, and hits next turn.",
+            "level": 18
+        },
+        {
+            "key": "slashNormal",
+            "move": "Slash",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has an increased chance for a critical hit.",
+            "level": 21
+        },
+        {
+            "key": "suckerPunchDark",
+            "move": "Sucker Punch",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "5",
+            "acc": "100%",
+            "effect": "Deals damage and has a priority of +1. However, the move only works if the target uses a direct attack in the same turn. If the target is not preparing an attack, Sucker Punch will fail.",
+            "level": 25
+        },
+        {
+            "key": "earthquakeGround",
+            "move": "Earthquake",
+            "Types": [
+                "ground"
+            ],
+            "class": "Physical",
+            "pow": "100",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Inflicts regular damage and can hit Dig users.",
+            "level": 35
+        },
+        {
+            "key": "fissureGround",
+            "move": "Fissure",
+            "Types": [
+                "ground"
+            ],
+            "class": "Physical",
+            "pow": "1",
+            "pp": "5",
+            "acc": "30%",
+            "effect": "Causes a one-hit KO.",
+            "level": 45
+        }
+    ],
+    "types": [
+        {
+            "key": "ground",
+            "name": "ground",
+            "label": "Ground",
+            "dmg": {
+                "doubleFrom": [
+                    "water",
+                    "grass",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "poison",
+                    "rock",
+                    "steel",
+                    "fire",
+                    "electric"
+                ],
+                "halfFrom": [
+                    "poison",
+                    "rock"
+                ],
+                "halfTo": [
+                    "bug",
+                    "grass"
+                ],
+                "noneFrom": [
+                    "electric"
+                ],
+                "noneTo": [
+                    "flying"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,540 @@
+{
+    "id": 123,
+    "speciesId": 123,
+    "key": "scyther",
+    "label": "Scyther",
+    "spawns": [
+        {
+            "pokemonId": 123,
+            "area": "Route 14",
+            "rate": "1%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "scyther"
+        },
+        {
+            "pokemonId": 123,
+            "area": "Route 15",
+            "rate": "1%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "scyther"
+        }
+    ],
+    "index": 122,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm06",
+            "item": "TM06",
+            "label": "Light Screen",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "30",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Special Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Deparment Store Roof",
+                "Roof",
+                "Give water to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm13",
+            "item": "TM13",
+            "label": "Brick Break",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Breaks the effect of opponent's Light Screen or Reflect.",
+            "howToGet": [
+                "Route 10",
+                "Defeat Coach Trainer Tasha"
+            ]
+        },
+        {
+            "key": "tm18",
+            "item": "TM18",
+            "label": "U-Turn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "User deals damage and then switches out for another party Pokémon.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm24",
+            "item": "TM24",
+            "label": "X-Scissor",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Route 12",
+                "Lower",
+                "Small Island"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm50",
+            "item": "TM50",
+            "label": "Roost",
+            "Types": [
+                "Flying"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "Restores 50 per cent of user's max HP.",
+            "howToGet": [
+                "Route 12",
+                "Gatehouse",
+                "2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "adamant",
+        "label": "Adamant",
+        "choices": [
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "leerNormal",
+            "move": "Leer",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "quickAttackNormal",
+            "move": "Quick Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "focusEnergyNormal",
+            "move": "Focus Energy",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Increases the user's chance to score a critical hit.",
+            "level": 4
+        },
+        {
+            "key": "doubleTeamNormal",
+            "move": "Double Team",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": null,
+            "effect": "Raises the user's evasion by one stage.",
+            "level": 8
+        },
+        {
+            "key": "feintNormal",
+            "move": "Feint",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "30",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "only hits if the target used Protect or Detect in the same turn.",
+            "level": 12
+        },
+        {
+            "key": "wingAttackFlying",
+            "move": "Wing Attack",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 16
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 20
+        },
+        {
+            "key": "slashNormal",
+            "move": "Slash",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has an increased chance for a critical hit.",
+            "level": 26
+        },
+        {
+            "key": "razorWindNormal",
+            "move": "Razor Wind",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Requires a turn to charge before attacking.",
+            "level": 32
+        },
+        {
+            "key": "airSlashFlying",
+            "move": "Air Slash",
+            "Types": [
+                "flying"
+            ],
+            "class": "Special",
+            "pow": "75",
+            "pp": "20",
+            "acc": "95%",
+            "effect": "deals damage and has a 30% chance of causing the target to flinch",
+            "level": 38
+        },
+        {
+            "key": "swordsDanceNormal",
+            "move": "Swords Dance",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Attack by two stages.",
+            "level": 44
+        },
+        {
+            "key": "xScissorBug",
+            "move": "X-Scissor",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage with no additional effect.",
+            "level": 50
+        }
+    ],
+    "types": [
+        {
+            "key": "bug",
+            "name": "bug",
+            "label": "Bug",
+            "dmg": {
+                "doubleFrom": [
+                    "flying",
+                    "rock",
+                    "fire"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "psychic",
+                    "dark"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "ground",
+                    "grass"
+                ],
+                "halfTo": [
+                    "fighting",
+                    "flying",
+                    "poison",
+                    "ghost",
+                    "steel",
+                    "fire",
+                    "fairy"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "flying",
+            "name": "flying",
+            "label": "Flying",
+            "dmg": {
+                "doubleFrom": [
+                    "rock",
+                    "electric",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfTo": [
+                    "rock",
+                    "steel",
+                    "electric"
+                ],
+                "noneFrom": [
+                    "ground"
+                ],
+                "noneTo": null
+            }
+        }
+    ]
+}

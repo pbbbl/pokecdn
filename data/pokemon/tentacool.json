@@ -1,0 +1,683 @@
+{
+    "id": 72,
+    "speciesId": 72,
+    "key": "tentacool",
+    "label": "Tentacool",
+    "spawns": [
+        {
+            "pokemonId": 72,
+            "area": "Route 10",
+            "rate": "45%",
+            "levels": "18-23",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 20",
+            "rate": "45%",
+            "levels": "37-42",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 20",
+            "rate": "45%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "2F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 24",
+            "rate": "45%",
+            "levels": "07-12",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 4",
+            "rate": "45%",
+            "levels": "07-12",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 11",
+            "rate": "30%",
+            "levels": "13-18",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 12",
+            "rate": "30%",
+            "levels": "31-36",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 13",
+            "rate": "30%",
+            "levels": "33-38",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 18",
+            "rate": "30%",
+            "levels": "33-38",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 19",
+            "rate": "30%",
+            "levels": "37-42",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Route 21",
+            "rate": "30%",
+            "levels": "37-42",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "4F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "5F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "6F",
+            "Pokemon": "tentacool"
+        },
+        {
+            "pokemonId": 72,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "7F",
+            "Pokemon": "tentacool"
+        }
+    ],
+    "index": 71,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm25",
+            "item": "TM25",
+            "label": "Waterfall",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm26",
+            "item": "TM26",
+            "label": "Poison Jab",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Man across water next to Rocket Corner"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm29",
+            "item": "TM29",
+            "label": "Scald",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cerulean City",
+                "Defeat Gym Leader Misty"
+            ]
+        },
+        {
+            "key": "tm32",
+            "item": "TM32",
+            "label": "Dazzling Gleam",
+            "Types": [
+                "Fairy"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Route 12 Lower",
+                "Mr. Dazzling's House",
+                "Tell Mr. Dazzling his name"
+            ]
+        },
+        {
+            "key": "tm47",
+            "item": "TM47",
+            "label": "Surf",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Route 15"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "courage",
+            "label": "Courage",
+            "affects": "spDef",
+            "Pokemons": [
+                "ivysaur",
+                "venusaur",
+                "wartortle",
+                "blastoise",
+                "butterfree",
+                "beedrill",
+                "ninetales",
+                "venonat",
+                "tentacool",
+                "tentacruel",
+                "seel",
+                "dewgong",
+                "drowzee",
+                "hypno",
+                "hitmonchan",
+                "mrmime",
+                "eevee",
+                "articuno"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "gentle",
+        "label": "Gentle",
+        "choices": [
+            {
+                "label": "Green",
+                "color": "#73e68a",
+                "iv": {
+                    "label": "Special Defense",
+                    "shortLabel": "Sp. Def"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "poisonStingPoison",
+            "move": "Poison Sting",
+            "Types": [
+                "poison"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Has a 30% chance to poison the target.",
+            "level": 1
+        },
+        {
+            "key": "constrictNormal",
+            "move": "Constrict",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "10",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Speed by one stage.",
+            "level": 4
+        },
+        {
+            "key": "supersonicNormal",
+            "move": "Supersonic",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "55%",
+            "effect": "Confuses the target.",
+            "level": 9
+        },
+        {
+            "key": "acidPoison",
+            "move": "Acid",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Special Defense by one stage.",
+            "level": 13
+        },
+        {
+            "key": "bubbleBeamWater",
+            "move": "Bubble Beam",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "65",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of lowering the target's Speed by one stage.",
+            "level": 18
+        },
+        {
+            "key": "wrapNormal",
+            "move": "Wrap",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "20",
+            "acc": "90%",
+            "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+            "level": 22
+        },
+        {
+            "key": "surfWater",
+            "move": "Surf",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Inflicts regular damage and can hit Dive users.",
+            "level": 27
+        },
+        {
+            "key": "barrierPsychic",
+            "move": "Barrier",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Defense by two stages.",
+            "level": 31
+        },
+        {
+            "key": "poisonJabPoison",
+            "move": "Poison Jab",
+            "Types": [
+                "poison"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a 30% chance of poisoning the target.",
+            "level": 36
+        },
+        {
+            "key": "screechNormal",
+            "move": "Screech",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "85%",
+            "effect": "Lowers the target's Defense by two stages.",
+            "level": 40
+        },
+        {
+            "key": "hydroPumpWater",
+            "move": "Hydro Pump",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "120",
+            "pp": "5",
+            "acc": "80%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 45
+        }
+    ],
+    "types": [
+        {
+            "key": "water",
+            "name": "water",
+            "label": "Water",
+            "dmg": {
+                "doubleFrom": [
+                    "grass",
+                    "electric"
+                ],
+                "doubleTo": [
+                    "ground",
+                    "rock",
+                    "fire"
+                ],
+                "halfFrom": [
+                    "steel",
+                    "fire",
+                    "water",
+                    "ice"
+                ],
+                "halfTo": [
+                    "water",
+                    "grass",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

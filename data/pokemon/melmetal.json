@@ -1,0 +1,384 @@
+{
+    "id": 153,
+    "speciesId": 809,
+    "key": "melmetal",
+    "label": "MelMetal",
+    "spawns": [],
+    "index": 152,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm16",
+            "item": "TM16",
+            "label": "Thunder Wave",
+            "Types": [
+                "Electric"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is paralyzed.",
+            "howToGet": [
+                "Route 25",
+                "In hedge maze"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm54",
+            "item": "TM54",
+            "label": "Flash Cannon",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "10 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "5F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "relaxed",
+        "label": "Relaxed",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "hardenNormal",
+            "move": "Harden",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "headbuttNormal",
+            "move": "Headbutt",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 9
+        },
+        {
+            "key": "thunderWaveElectric",
+            "move": "Thunder Wave",
+            "Types": [
+                "electric"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Paralyzes the target.",
+            "level": 18
+        },
+        {
+            "key": "thunderShockElectric",
+            "move": "Thunder Shock",
+            "Types": [
+                "electric"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of paralyzing the target.",
+            "level": 27
+        },
+        {
+            "key": "acidArmorPoison",
+            "move": "Acid Armor",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises the user's Defense by two stages.",
+            "level": 36
+        },
+        {
+            "key": "flashCannonSteel",
+            "move": "Flash Cannon",
+            "Types": [
+                "steel"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of lowering the target's Special Defense by one stage.",
+            "level": 45
+        }
+    ],
+    "types": [
+        {
+            "key": "steel",
+            "name": "steel",
+            "label": "Steel",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting",
+                    "ground",
+                    "fire"
+                ],
+                "doubleTo": [
+                    "rock",
+                    "ice",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "normal",
+                    "flying",
+                    "rock",
+                    "bug",
+                    "steel",
+                    "grass",
+                    "psychic",
+                    "ice",
+                    "dragon",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "steel",
+                    "fire",
+                    "water",
+                    "electric"
+                ],
+                "noneFrom": [
+                    "poison"
+                ],
+                "noneTo": null
+            }
+        },
+        {
+            "key": "electric",
+            "name": "electric",
+            "label": "Electric",
+            "dmg": {
+                "doubleFrom": [
+                    "ground"
+                ],
+                "doubleTo": [
+                    "flying",
+                    "water"
+                ],
+                "halfFrom": [
+                    "flying",
+                    "steel",
+                    "electric"
+                ],
+                "halfTo": [
+                    "grass",
+                    "electric",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "ground"
+                ]
+            }
+        }
+    ]
+}

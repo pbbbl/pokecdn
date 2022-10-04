@@ -1,0 +1,980 @@
+{
+    "id": 149,
+    "speciesId": 149,
+    "key": "dragonite",
+    "label": "Dragonite",
+    "spawns": [
+        {
+            "pokemonId": 149,
+            "area": "Route 18",
+            "rate": "Rare Spawn",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dragonite"
+        },
+        {
+            "pokemonId": 149,
+            "area": "Route 21",
+            "rate": "Rare Spawn",
+            "levels": "37-42",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dragonite"
+        },
+        {
+            "pokemonId": 149,
+            "area": "Route 22",
+            "rate": "Rare Spawn",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dragonite"
+        },
+        {
+            "pokemonId": 149,
+            "area": "Route 23",
+            "rate": "Rare Spawn",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dragonite"
+        },
+        {
+            "pokemonId": 149,
+            "area": "Route 24",
+            "rate": "Rare Spawn",
+            "levels": "07-12",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dragonite"
+        },
+        {
+            "pokemonId": 149,
+            "area": "Route 25",
+            "rate": "Rare Spawn",
+            "levels": "09-14",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dragonite"
+        }
+    ],
+    "index": 148,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm06",
+            "item": "TM06",
+            "label": "Light Screen",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "30",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Special Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Deparment Store Roof",
+                "Roof",
+                "Give water to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm13",
+            "item": "TM13",
+            "label": "Brick Break",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Breaks the effect of opponent's Light Screen or Reflect.",
+            "howToGet": [
+                "Route 10",
+                "Defeat Coach Trainer Tasha"
+            ]
+        },
+        {
+            "key": "tm14",
+            "item": "TM14",
+            "label": "Fly",
+            "Types": [
+                "Flying"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "95",
+            "description": "User flys into the sky on the first turn, making it invulnerable to most attacks, and attacks on the second turn.",
+            "howToGet": [
+                "Route 16",
+                "Talk to lady in northern house"
+            ]
+        },
+        {
+            "key": "tm16",
+            "item": "TM16",
+            "label": "Thunder Wave",
+            "Types": [
+                "Electric"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is paralyzed.",
+            "howToGet": [
+                "Route 25",
+                "In hedge maze"
+            ]
+        },
+        {
+            "key": "tm17",
+            "item": "TM17",
+            "label": "Dragon Tail",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "60",
+            "accuracy": "90",
+            "description": "Deals damage and forces the opposing Pokémon to switch out for another. Also ends wild battles.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm23",
+            "item": "TM23",
+            "label": "Thunder Punch",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Dojo",
+                "Defeat Coach Trainer Leona"
+            ]
+        },
+        {
+            "key": "tm25",
+            "item": "TM25",
+            "label": "Waterfall",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm31",
+            "item": "TM31",
+            "label": "Fire Punch",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Route 15",
+                "Defeat Coach Trainer Midge"
+            ]
+        },
+        {
+            "key": "tm34",
+            "item": "TM34",
+            "label": "Dragon Pulse",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "85",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "7F"
+            ]
+        },
+        {
+            "key": "tm35",
+            "item": "TM35",
+            "label": "Ice Punch",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Route 21",
+                "Defeat Coach Trainer Pam"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm37",
+            "item": "TM37",
+            "label": "Flamethrower",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "10F"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm39",
+            "item": "TM39",
+            "label": "Outrage",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "User repeats this move for two to three turns, then becomes confused.",
+            "howToGet": [
+                "Victory Road",
+                "Defeat Coach Trainer Ryan"
+            ]
+        },
+        {
+            "key": "tm41",
+            "item": "TM41",
+            "label": "Earthquake",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Viridian City",
+                "Defeat Gym Leader [SPOILER](Giovanni)"
+            ]
+        },
+        {
+            "key": "tm46",
+            "item": "TM46",
+            "label": "Fire Blast",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "85",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Defeat Gym Leader Blaine"
+            ]
+        },
+        {
+            "key": "tm47",
+            "item": "TM47",
+            "label": "Surf",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Route 15"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm49",
+            "item": "TM49",
+            "label": "Superpower",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "Lowers the user's Attack and Defense stats by one stage.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm50",
+            "item": "TM50",
+            "label": "Roost",
+            "Types": [
+                "Flying"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "Restores 50 per cent of user's max HP.",
+            "howToGet": [
+                "Route 12",
+                "Gatehouse",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "brave",
+        "label": "Brave",
+        "choices": [
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "wingAttackFlying",
+            "move": "Wing Attack",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 0
+        },
+        {
+            "key": "aquaJetWater",
+            "move": "Aqua Jet",
+            "Types": [
+                "water"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a priority of +1.Moves with a higher priority always go first.",
+            "level": 1
+        },
+        {
+            "key": "dragonRageDragon",
+            "move": "Dragon Rage",
+            "Types": [
+                "dragon"
+            ],
+            "class": "Special",
+            "pow": "1",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Inflicts 40 points of damage.",
+            "level": 1
+        },
+        {
+            "key": "firePunchFire",
+            "move": "Fire Punch",
+            "Types": [
+                "fire"
+            ],
+            "class": "Physical",
+            "pow": "75",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 10% chance to burn the target.",
+            "level": 1
+        },
+        {
+            "key": "leerNormal",
+            "move": "Leer",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "mistIce",
+            "move": "Mist",
+            "Types": [
+                "ice"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Protects the user's stats from being changed by enemy moves.",
+            "level": 1
+        },
+        {
+            "key": "thunderPunchElectric",
+            "move": "Thunder Punch",
+            "Types": [
+                "electric"
+            ],
+            "class": "Physical",
+            "pow": "75",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of paralyzing the target.",
+            "level": 1
+        },
+        {
+            "key": "thunderWaveElectric",
+            "move": "Thunder Wave",
+            "Types": [
+                "electric"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Paralyzes the target.",
+            "level": 1
+        },
+        {
+            "key": "wingAttackFlying",
+            "move": "Wing Attack",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "wrapNormal",
+            "move": "Wrap",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "20",
+            "acc": "90%",
+            "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+            "level": 1
+        },
+        {
+            "key": "thunderWaveElectric",
+            "move": "Thunder Wave",
+            "Types": [
+                "electric"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Paralyzes the target.",
+            "level": 7
+        },
+        {
+            "key": "dragonRageDragon",
+            "move": "Dragon Rage",
+            "Types": [
+                "dragon"
+            ],
+            "class": "Special",
+            "pow": "1",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Inflicts 40 points of damage.",
+            "level": 14
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 21
+        },
+        {
+            "key": "dragonTailDragon",
+            "move": "Dragon Tail",
+            "Types": [
+                "dragon"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "10",
+            "acc": "90%",
+            "effect": "In battles, the opponent switches. In the wild, the Pokémon runs.",
+            "level": 28
+        },
+        {
+            "key": "slamNormal",
+            "move": "Slam",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "85",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 30% chance to paralyze the target.",
+            "level": 40
+        },
+        {
+            "key": "outrageDragon",
+            "move": "Outrage",
+            "Types": [
+                "dragon"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "The user of Outrage attacks for 2-3 turns, during which it cannot switch out, and then becomes confused.",
+            "level": 52
+        },
+        {
+            "key": "hyperBeamNormal",
+            "move": "Hyper Beam",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "150",
+            "pp": "5",
+            "acc": "90%",
+            "effect": "User foregoes its next turn to recharge.",
+            "level": 70
+        },
+        {
+            "key": "roostFlying",
+            "move": "Roost",
+            "Types": [
+                "flying"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "User recovers half of its max HP and loses the Flying type temporarily.",
+            "level": 88
+        }
+    ],
+    "types": [
+        {
+            "key": "dragon",
+            "name": "dragon",
+            "label": "Dragon",
+            "dmg": {
+                "doubleFrom": [
+                    "ice",
+                    "dragon",
+                    "fairy"
+                ],
+                "doubleTo": [
+                    "dragon"
+                ],
+                "halfFrom": [
+                    "fire",
+                    "water",
+                    "grass",
+                    "electric"
+                ],
+                "halfTo": [
+                    "steel"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "fairy"
+                ]
+            }
+        },
+        {
+            "key": "flying",
+            "name": "flying",
+            "label": "Flying",
+            "dmg": {
+                "doubleFrom": [
+                    "rock",
+                    "electric",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfTo": [
+                    "rock",
+                    "steel",
+                    "electric"
+                ],
+                "noneFrom": [
+                    "ground"
+                ],
+                "noneTo": null
+            }
+        }
+    ]
+}

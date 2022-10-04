@@ -1,0 +1,693 @@
+{
+    "id": 75,
+    "speciesId": 75,
+    "key": "graveler",
+    "label": "Graveler",
+    "spawns": [
+        {
+            "pokemonId": 75,
+            "area": "Cerulean Cave",
+            "rate": "20%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "graveler"
+        },
+        {
+            "pokemonId": 75,
+            "area": "Rock Tunnel",
+            "rate": "20%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "graveler"
+        },
+        {
+            "pokemonId": 75,
+            "area": "Cerulean Cave",
+            "rate": "15%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "graveler"
+        },
+        {
+            "pokemonId": 75,
+            "area": "Cerulean Cave",
+            "rate": "15%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "graveler"
+        },
+        {
+            "pokemonId": 75,
+            "area": "Victory Road",
+            "rate": "15%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "graveler"
+        },
+        {
+            "pokemonId": 75,
+            "area": "Victory Road",
+            "rate": "15%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "graveler"
+        },
+        {
+            "pokemonId": 75,
+            "area": "Victory Road",
+            "rate": "15%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "graveler"
+        },
+        {
+            "pokemonId": 75,
+            "area": "Rock Tunnel",
+            "rate": "10%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "graveler"
+        }
+    ],
+    "index": 74,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm13",
+            "item": "TM13",
+            "label": "Brick Break",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Breaks the effect of opponent's Light Screen or Reflect.",
+            "howToGet": [
+                "Route 10",
+                "Defeat Coach Trainer Tasha"
+            ]
+        },
+        {
+            "key": "tm15",
+            "item": "TM15",
+            "label": "Seismic Toss",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Deals damage equal to the user's level.",
+            "howToGet": [
+                "Route 25",
+                "Defeat Coach Trainer Amala"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm23",
+            "item": "TM23",
+            "label": "Thunder Punch",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Dojo",
+                "Defeat Coach Trainer Leona"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm31",
+            "item": "TM31",
+            "label": "Fire Punch",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Route 15",
+                "Defeat Coach Trainer Midge"
+            ]
+        },
+        {
+            "key": "tm37",
+            "item": "TM37",
+            "label": "Flamethrower",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "10F"
+            ]
+        },
+        {
+            "key": "tm41",
+            "item": "TM41",
+            "label": "Earthquake",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Viridian City",
+                "Defeat Gym Leader [SPOILER](Giovanni)"
+            ]
+        },
+        {
+            "key": "tm42",
+            "item": "TM42",
+            "label": "Self-Destruct",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "Deals damage and then the user faints.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "2F",
+                "Speak with employee at south end of the middle hallway"
+            ]
+        },
+        {
+            "key": "tm46",
+            "item": "TM46",
+            "label": "Fire Blast",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "85",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Defeat Gym Leader Blaine"
+            ]
+        },
+        {
+            "key": "tm49",
+            "item": "TM49",
+            "label": "Superpower",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "Lowers the user's Attack and Defense stats by one stage.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm56",
+            "item": "TM56",
+            "label": "Stealth Rock",
+            "Types": [
+                "Rock"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Deals either 1/32, 1/16, 1/8, 1/4 or 1/2 opponent's max HP in damage when it switches into battle, depending on type.",
+            "howToGet": [
+                "Victory Road",
+                "1F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "tough",
+            "label": "Tough",
+            "affects": "spDef",
+            "Pokemons": [
+                "squirtle",
+                "wartortle",
+                "metapod",
+                "kakuna",
+                "sandshrew",
+                "sandslash",
+                "paras",
+                "parasect",
+                "poliwrath",
+                "geodude",
+                "graveler",
+                "golem",
+                "slowbro",
+                "shellder",
+                "cloyster",
+                "onix",
+                "exeggcute",
+                "cubone",
+                "marowak",
+                "koffing",
+                "weezing",
+                "rhyhorn",
+                "tangela",
+                "seadra",
+                "omanyte",
+                "omastar",
+                "kabuto"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "relaxed",
+        "label": "Relaxed",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "bideNormal",
+            "move": "Bide",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "1",
+            "pp": "10",
+            "acc": null,
+            "effect": "User waits for 2-3 turns, then hits back for twice the damage it took.",
+            "level": 1
+        },
+        {
+            "key": "defenseCurlNormal",
+            "move": "Defense Curl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises user's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 1
+        },
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 3
+        },
+        {
+            "key": "bideNormal",
+            "move": "Bide",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "1",
+            "pp": "10",
+            "acc": null,
+            "effect": "User waits for 2-3 turns, then hits back for twice the damage it took.",
+            "level": 6
+        },
+        {
+            "key": "rockThrowRock",
+            "move": "Rock Throw",
+            "Types": [
+                "rock"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "15",
+            "acc": "90%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 9
+        },
+        {
+            "key": "stealthRockRock",
+            "move": "Stealth Rock",
+            "Types": [
+                "rock"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "lays a trap of stones around the foe, which hurts Pokémon switching in to the opposing field.",
+            "level": 12
+        },
+        {
+            "key": "takeDownNormal",
+            "move": "Take Down",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "90",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "User receives 1/4 the damage it inflicts in recoil.",
+            "level": 15
+        },
+        {
+            "key": "selfDestructNormal",
+            "move": "Self-Destruct",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "200",
+            "pp": "5",
+            "acc": "100%",
+            "effect": "Self-Destruct deals high damage, but causes the user to faint.",
+            "level": 19
+        },
+        {
+            "key": "rockSlideRock",
+            "move": "Rock Slide",
+            "Types": [
+                "rock"
+            ],
+            "class": "Physical",
+            "pow": "75",
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 23
+        },
+        {
+            "key": "earthquakeGround",
+            "move": "Earthquake",
+            "Types": [
+                "ground"
+            ],
+            "class": "Physical",
+            "pow": "100",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Inflicts regular damage and can hit Dig users.",
+            "level": 31
+        },
+        {
+            "key": "doubleEdgeNormal",
+            "move": "Double-Edge",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage, but the user receives 1?3 of the damage it inflicted in recoil.",
+            "level": 39
+        },
+        {
+            "key": "explosionNormal",
+            "move": "Explosion",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "250",
+            "pp": "5",
+            "acc": "100%",
+            "effect": "User faints.",
+            "level": 47
+        }
+    ],
+    "types": [
+        {
+            "key": "rock",
+            "name": "rock",
+            "label": "Rock",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting",
+                    "ground",
+                    "steel",
+                    "water",
+                    "grass"
+                ],
+                "doubleTo": [
+                    "flying",
+                    "bug",
+                    "fire",
+                    "ice"
+                ],
+                "halfFrom": [
+                    "normal",
+                    "flying",
+                    "poison",
+                    "fire"
+                ],
+                "halfTo": [
+                    "fighting",
+                    "ground",
+                    "steel"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "ground",
+            "name": "ground",
+            "label": "Ground",
+            "dmg": {
+                "doubleFrom": [
+                    "water",
+                    "grass",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "poison",
+                    "rock",
+                    "steel",
+                    "fire",
+                    "electric"
+                ],
+                "halfFrom": [
+                    "poison",
+                    "rock"
+                ],
+                "halfTo": [
+                    "bug",
+                    "grass"
+                ],
+                "noneFrom": [
+                    "electric"
+                ],
+                "noneTo": [
+                    "flying"
+                ]
+            }
+        }
+    ]
+}

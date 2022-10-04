@@ -1,0 +1,588 @@
+{
+    "id": 85,
+    "speciesId": 85,
+    "key": "dodrio",
+    "label": "Dodrio",
+    "spawns": [
+        {
+            "pokemonId": 85,
+            "area": "Route 18",
+            "rate": "10%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dodrio"
+        },
+        {
+            "pokemonId": 85,
+            "area": "Route 16",
+            "rate": "5%",
+            "levels": "31-36",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dodrio"
+        },
+        {
+            "pokemonId": 85,
+            "area": "Route 17",
+            "rate": "5%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "dodrio"
+        }
+    ],
+    "index": 84,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm02",
+            "item": "TM02",
+            "label": "Taunt",
+            "Types": [
+                "Dark"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Opponent can only use damage-dealing moves for three turns.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Researcher in Lab"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm14",
+            "item": "TM14",
+            "label": "Fly",
+            "Types": [
+                "Flying"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "95",
+            "description": "User flys into the sky on the first turn, making it invulnerable to most attacks, and attacks on the second turn.",
+            "howToGet": [
+                "Route 16",
+                "Talk to lady in northern house"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm28",
+            "item": "TM28",
+            "label": "Tri Attack",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to either burn, freeze, or paralyze opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm50",
+            "item": "TM50",
+            "label": "Roost",
+            "Types": [
+                "Flying"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "Restores 50 per cent of user's max HP.",
+            "howToGet": [
+                "Route 12",
+                "Gatehouse",
+                "2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "jolly",
+        "label": "Jolly",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "triAttackNormal",
+            "move": "Tri Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Has a 20% chance to burn, freeze, or paralyze the target.",
+            "level": 0
+        },
+        {
+            "key": "growlNormal",
+            "move": "Growl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "100%",
+            "effect": "Lowers the target's Attack by one stage.",
+            "level": 1
+        },
+        {
+            "key": "mirrorMoveFlying",
+            "move": "Mirror Move",
+            "Types": [
+                "flying"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "Uses the target's last used move.",
+            "level": 1
+        },
+        {
+            "key": "peckFlying",
+            "move": "Peck",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "35",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "quickAttackNormal",
+            "move": "Quick Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "rageNormal",
+            "move": "Rage",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "20",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "If the user is hit after using this move, its Attack rises by one stage.",
+            "level": 1
+        },
+        {
+            "key": "supersonicNormal",
+            "move": "Supersonic",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "55%",
+            "effect": "Confuses the target.",
+            "level": 1
+        },
+        {
+            "key": "triAttackNormal",
+            "move": "Tri Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Has a 20% chance to burn, freeze, or paralyze the target.",
+            "level": 1
+        },
+        {
+            "key": "quickAttackNormal",
+            "move": "Quick Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 5
+        },
+        {
+            "key": "rageNormal",
+            "move": "Rage",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "20",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "If the user is hit after using this move, its Attack rises by one stage.",
+            "level": 10
+        },
+        {
+            "key": "furyAttackNormal",
+            "move": "Fury Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 16
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 22
+        },
+        {
+            "key": "drillPeckFlying",
+            "move": "Drill Peck",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 27
+        },
+        {
+            "key": "swordsDanceNormal",
+            "move": "Swords Dance",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Attack by two stages.",
+            "level": 37
+        },
+        {
+            "key": "jumpKickFighting",
+            "move": "Jump Kick",
+            "Types": [
+                "fighting"
+            ],
+            "class": "Physical",
+            "pow": "100",
+            "pp": "10",
+            "acc": "95%",
+            "effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+            "level": 48
+        },
+        {
+            "key": "thrashNormal",
+            "move": "Thrash",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Hits every turn for 2-3 turns, then confuses the user.",
+            "level": 59
+        }
+    ],
+    "types": [
+        {
+            "key": "normal",
+            "name": "normal",
+            "label": "Normal",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting"
+                ],
+                "doubleTo": null,
+                "halfFrom": null,
+                "halfTo": [
+                    "rock",
+                    "steel"
+                ],
+                "noneFrom": [
+                    "ghost"
+                ],
+                "noneTo": [
+                    "ghost"
+                ]
+            }
+        },
+        {
+            "key": "flying",
+            "name": "flying",
+            "label": "Flying",
+            "dmg": {
+                "doubleFrom": [
+                    "rock",
+                    "electric",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfTo": [
+                    "rock",
+                    "steel",
+                    "electric"
+                ],
+                "noneFrom": [
+                    "ground"
+                ],
+                "noneTo": null
+            }
+        }
+    ]
+}

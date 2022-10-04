@@ -1,0 +1,323 @@
+{
+    "id": 129,
+    "speciesId": 129,
+    "key": "magikarp",
+    "label": "Magikarp",
+    "spawns": [
+        {
+            "pokemonId": 129,
+            "area": "Cerulean Cave",
+            "rate": "45%",
+            "levels": "51-56",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Cerulean Cave",
+            "rate": "45%",
+            "levels": "51-56",
+            "encounter": "water",
+            "floor": "3F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 10",
+            "rate": "45%",
+            "levels": "18-23",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 20",
+            "rate": "45%",
+            "levels": "37-42",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 20",
+            "rate": "45%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "2F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 22",
+            "rate": "45%",
+            "levels": "03-04",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 23",
+            "rate": "45%",
+            "levels": "41-46",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 24",
+            "rate": "45%",
+            "levels": "07-12",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 25",
+            "rate": "45%",
+            "levels": "09-14",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 4",
+            "rate": "45%",
+            "levels": "07-12",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 6",
+            "rate": "45%",
+            "levels": "11-16",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 11",
+            "rate": "30%",
+            "levels": "13-18",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 12",
+            "rate": "30%",
+            "levels": "31-36",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 13",
+            "rate": "30%",
+            "levels": "33-38",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 18",
+            "rate": "30%",
+            "levels": "33-38",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 19",
+            "rate": "30%",
+            "levels": "37-42",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Route 21",
+            "rate": "30%",
+            "levels": "37-42",
+            "encounter": "water",
+            "floor": "1F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "4F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "5F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "6F",
+            "Pokemon": "magikarp"
+        },
+        {
+            "pokemonId": 129,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "7F",
+            "Pokemon": "magikarp"
+        }
+    ],
+    "index": 128,
+    "tms": null,
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "timid",
+        "label": "Timid",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "splashNormal",
+            "move": "Splash",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Does nothing.",
+            "level": 1
+        },
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 15
+        }
+    ],
+    "types": [
+        {
+            "key": "water",
+            "name": "water",
+            "label": "Water",
+            "dmg": {
+                "doubleFrom": [
+                    "grass",
+                    "electric"
+                ],
+                "doubleTo": [
+                    "ground",
+                    "rock",
+                    "fire"
+                ],
+                "halfFrom": [
+                    "steel",
+                    "fire",
+                    "water",
+                    "ice"
+                ],
+                "halfTo": [
+                    "water",
+                    "grass",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,581 @@
+{
+    "id": 145,
+    "speciesId": 145,
+    "key": "zapdos",
+    "label": "Zapdos",
+    "spawns": [
+        {
+            "pokemonId": 145,
+            "area": "Route 22",
+            "rate": "Rare Spawn",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "zapdos"
+        },
+        {
+            "pokemonId": 145,
+            "area": "Route 23",
+            "rate": "Rare Spawn",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "zapdos"
+        },
+        {
+            "pokemonId": 145,
+            "area": "Route 24",
+            "rate": "Rare Spawn",
+            "levels": "07-12",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "zapdos"
+        },
+        {
+            "pokemonId": 145,
+            "area": "Route 25",
+            "rate": "Rare Spawn",
+            "levels": "09-14",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "zapdos"
+        }
+    ],
+    "index": 144,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm06",
+            "item": "TM06",
+            "label": "Light Screen",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "30",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Special Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Deparment Store Roof",
+                "Roof",
+                "Give water to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm14",
+            "item": "TM14",
+            "label": "Fly",
+            "Types": [
+                "Flying"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "95",
+            "description": "User flys into the sky on the first turn, making it invulnerable to most attacks, and attacks on the second turn.",
+            "howToGet": [
+                "Route 16",
+                "Talk to lady in northern house"
+            ]
+        },
+        {
+            "key": "tm16",
+            "item": "TM16",
+            "label": "Thunder Wave",
+            "Types": [
+                "Electric"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is paralyzed.",
+            "howToGet": [
+                "Route 25",
+                "In hedge maze"
+            ]
+        },
+        {
+            "key": "tm18",
+            "item": "TM18",
+            "label": "U-Turn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "User deals damage and then switches out for another party Pokémon.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm50",
+            "item": "TM50",
+            "label": "Roost",
+            "Types": [
+                "Flying"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "Restores 50 per cent of user's max HP.",
+            "howToGet": [
+                "Route 12",
+                "Gatehouse",
+                "2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "smart",
+            "label": "Smart",
+            "ivKey": "spAtk",
+            "Pokemons": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur",
+                "charmeleon",
+                "charizard",
+                "butterfree",
+                "oddish",
+                "gloom",
+                "vileplume",
+                "venomoth",
+                "psyduck",
+                "golduck",
+                "abra",
+                "kadabra",
+                "alakazam",
+                "magnemite",
+                "magneton",
+                "gastly",
+                "haunter",
+                "gengar",
+                "exeggutor",
+                "horsea",
+                "seadra",
+                "jynx",
+                "magmar",
+                "porygon",
+                "zapdos",
+                "moltres",
+                "mewtwo",
+                "mew"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "mild",
+        "label": "Mild",
+        "choices": [
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "peckFlying",
+            "move": "Peck",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "35",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "thunderShockElectric",
+            "move": "Thunder Shock",
+            "Types": [
+                "electric"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of paralyzing the target.",
+            "level": 1
+        },
+        {
+            "key": "thunderWaveElectric",
+            "move": "Thunder Wave",
+            "Types": [
+                "electric"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Paralyzes the target.",
+            "level": 8
+        },
+        {
+            "key": "leerNormal",
+            "move": "Leer",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 16
+        },
+        {
+            "key": "drillPeckFlying",
+            "move": "Drill Peck",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 24
+        },
+        {
+            "key": "thunderboltElectric",
+            "move": "Thunderbolt",
+            "Types": [
+                "electric"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 10% chance to paralyze the target.",
+            "level": 32
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 40
+        },
+        {
+            "key": "lightScreenPsychic",
+            "move": "Light Screen",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Reduces damage from special attacks by 50% for five turns..",
+            "level": 48
+        },
+        {
+            "key": "roostFlying",
+            "move": "Roost",
+            "Types": [
+                "flying"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "User recovers half of its max HP and loses the Flying type temporarily.",
+            "level": 56
+        },
+        {
+            "key": "thunderElectric",
+            "move": "Thunder",
+            "Types": [
+                "electric"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 10% chance to paralyze the target.",
+            "level": 64
+        },
+        {
+            "key": "skyAttackFlying",
+            "move": "Sky Attack",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "140",
+            "pp": "5",
+            "acc": "90%",
+            "effect": "User charges for one turn before attacking. Has a 30% chance to make the target flinch.",
+            "level": 72
+        }
+    ],
+    "types": [
+        {
+            "key": "electric",
+            "name": "electric",
+            "label": "Electric",
+            "dmg": {
+                "doubleFrom": [
+                    "ground"
+                ],
+                "doubleTo": [
+                    "flying",
+                    "water"
+                ],
+                "halfFrom": [
+                    "flying",
+                    "steel",
+                    "electric"
+                ],
+                "halfTo": [
+                    "grass",
+                    "electric",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "ground"
+                ]
+            }
+        },
+        {
+            "key": "flying",
+            "name": "flying",
+            "label": "Flying",
+            "dmg": {
+                "doubleFrom": [
+                    "rock",
+                    "electric",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfTo": [
+                    "rock",
+                    "steel",
+                    "electric"
+                ],
+                "noneFrom": [
+                    "ground"
+                ],
+                "noneTo": null
+            }
+        }
+    ]
+}

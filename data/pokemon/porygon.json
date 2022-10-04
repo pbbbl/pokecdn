@@ -1,0 +1,610 @@
+{
+    "id": 137,
+    "speciesId": 137,
+    "key": "porygon",
+    "label": "Porygon",
+    "spawns": [
+        {
+            "pokemonId": 137,
+            "area": "Route 7",
+            "rate": "Rare Spawn",
+            "levels": "22-27",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "porygon"
+        }
+    ],
+    "index": 136,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm04",
+            "item": "TM04",
+            "label": "Teleport",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "User switches out for another Pokémon.",
+            "howToGet": [
+                "Lavendar Town",
+                "Pokemon Tower",
+                "4F"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm16",
+            "item": "TM16",
+            "label": "Thunder Wave",
+            "Types": [
+                "Electric"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is paralyzed.",
+            "howToGet": [
+                "Route 25",
+                "In hedge maze"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm21",
+            "item": "TM21",
+            "label": "Foul Play",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "95",
+            "accuracy": "100",
+            "description": "Uses the opponent's Attack stat instead of the user's.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm28",
+            "item": "TM28",
+            "label": "Tri Attack",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to either burn, freeze, or paralyze opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm40",
+            "item": "TM40",
+            "label": "Psychic",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to lower opponent's Special Defence by 1 stage.",
+            "howToGet": [
+                "Saffron City",
+                "Mr. Psychic's House",
+                "Speak with Mr. Psychic"
+            ]
+        },
+        {
+            "key": "tm43",
+            "item": "TM43",
+            "label": "Shadow Ball",
+            "Types": [
+                "Ghost"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm45",
+            "item": "TM45",
+            "label": "Solar Beam",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "User charges up during first turn, dealing damage on the second.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm59",
+            "item": "TM59",
+            "label": "Dream Eater",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Only usable on sleeping opponents. Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Route 12",
+                "Defeat Coach Trainer Priya"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "smart",
+            "label": "Smart",
+            "ivKey": "spAtk",
+            "Pokemons": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur",
+                "charmeleon",
+                "charizard",
+                "butterfree",
+                "oddish",
+                "gloom",
+                "vileplume",
+                "venomoth",
+                "psyduck",
+                "golduck",
+                "abra",
+                "kadabra",
+                "alakazam",
+                "magnemite",
+                "magneton",
+                "gastly",
+                "haunter",
+                "gengar",
+                "exeggutor",
+                "horsea",
+                "seadra",
+                "jynx",
+                "magmar",
+                "porygon",
+                "zapdos",
+                "moltres",
+                "mewtwo",
+                "mew"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "quiet",
+        "label": "Quiet",
+        "choices": [
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "sharpenNormal",
+            "move": "Sharpen",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Attack by one stage.",
+            "level": 4
+        },
+        {
+            "key": "psybeamPsychic",
+            "move": "Psybeam",
+            "Types": [
+                "psychic"
+            ],
+            "class": "Special",
+            "pow": "65",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has a 10% chance to confuse the target.",
+            "level": 9
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 13
+        },
+        {
+            "key": "barrierPsychic",
+            "move": "Barrier",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Defense by two stages.",
+            "level": 18
+        },
+        {
+            "key": "triAttackNormal",
+            "move": "Tri Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Has a 20% chance to burn, freeze, or paralyze the target.",
+            "level": 22
+        },
+        {
+            "key": "thunderWaveElectric",
+            "move": "Thunder Wave",
+            "Types": [
+                "electric"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Paralyzes the target.",
+            "level": 27
+        },
+        {
+            "key": "conversionNormal",
+            "move": "Conversion",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "User's type changes to the type of one of its moves at random.",
+            "level": 31
+        },
+        {
+            "key": "recoverNormal",
+            "move": "Recover",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "Heals the user by half its max HP.",
+            "level": 36
+        },
+        {
+            "key": "hyperBeamNormal",
+            "move": "Hyper Beam",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "150",
+            "pp": "5",
+            "acc": "90%",
+            "effect": "User foregoes its next turn to recharge.",
+            "level": 40
+        }
+    ],
+    "types": [
+        {
+            "key": "normal",
+            "name": "normal",
+            "label": "Normal",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting"
+                ],
+                "doubleTo": null,
+                "halfFrom": null,
+                "halfTo": [
+                    "rock",
+                    "steel"
+                ],
+                "noneFrom": [
+                    "ghost"
+                ],
+                "noneTo": [
+                    "ghost"
+                ]
+            }
+        }
+    ]
+}

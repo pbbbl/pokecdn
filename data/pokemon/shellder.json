@@ -1,0 +1,524 @@
+{
+    "id": 90,
+    "speciesId": 90,
+    "key": "shellder",
+    "label": "Shellder",
+    "spawns": [
+        {
+            "pokemonId": 90,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "4F",
+            "Pokemon": "shellder"
+        },
+        {
+            "pokemonId": 90,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "5F",
+            "Pokemon": "shellder"
+        },
+        {
+            "pokemonId": 90,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "6F",
+            "Pokemon": "shellder"
+        },
+        {
+            "pokemonId": 90,
+            "area": "Seafoam Islands",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "water",
+            "floor": "7F",
+            "Pokemon": "shellder"
+        }
+    ],
+    "index": 89,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm04",
+            "item": "TM04",
+            "label": "Teleport",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "User switches out for another Pokémon.",
+            "howToGet": [
+                "Lavendar Town",
+                "Pokemon Tower",
+                "4F"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm28",
+            "item": "TM28",
+            "label": "Tri Attack",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to either burn, freeze, or paralyze opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm42",
+            "item": "TM42",
+            "label": "Self-Destruct",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "Deals damage and then the user faints.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "2F",
+                "Speak with employee at south end of the middle hallway"
+            ]
+        },
+        {
+            "key": "tm47",
+            "item": "TM47",
+            "label": "Surf",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Route 15"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "tough",
+            "label": "Tough",
+            "affects": "spDef",
+            "Pokemons": [
+                "squirtle",
+                "wartortle",
+                "metapod",
+                "kakuna",
+                "sandshrew",
+                "sandslash",
+                "paras",
+                "parasect",
+                "poliwrath",
+                "geodude",
+                "graveler",
+                "golem",
+                "slowbro",
+                "shellder",
+                "cloyster",
+                "onix",
+                "exeggcute",
+                "cubone",
+                "marowak",
+                "koffing",
+                "weezing",
+                "rhyhorn",
+                "tangela",
+                "seadra",
+                "omanyte",
+                "omastar",
+                "kabuto"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "lax",
+        "label": "Lax",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Green",
+                "color": "#73e68a",
+                "iv": {
+                    "label": "Special Defense",
+                    "shortLabel": "Sp. Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "waterGunWater",
+            "move": "Water Gun",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "withdrawWater",
+            "move": "Withdraw",
+            "Types": [
+                "water"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises the user's Defense by one stage.",
+            "level": 4
+        },
+        {
+            "key": "leerNormal",
+            "move": "Leer",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 9
+        },
+        {
+            "key": "iceShardIce",
+            "move": "Ice Shard",
+            "Types": [
+                "ice"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "deals damage and has a priority of +1. Moves with a higher priority always go first.",
+            "level": 13
+        },
+        {
+            "key": "supersonicNormal",
+            "move": "Supersonic",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "55%",
+            "effect": "Confuses the target.",
+            "level": 18
+        },
+        {
+            "key": "clampWater",
+            "move": "Clamp",
+            "Types": [
+                "water"
+            ],
+            "class": "Physical",
+            "pow": "35",
+            "pp": "15",
+            "acc": "85%",
+            "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+            "level": 22
+        },
+        {
+            "key": "auroraBeamIce",
+            "move": "Aurora Beam",
+            "Types": [
+                "ice"
+            ],
+            "class": "Special",
+            "pow": "65",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Attack by one stage.",
+            "level": 27
+        },
+        {
+            "key": "protectNormal",
+            "move": "Protect",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "prevents any attacks targeted at the user from striking, for the duration of the turn. It has priority +4 so will activate before most other moves.",
+            "level": 31
+        },
+        {
+            "key": "iceBeamIce",
+            "move": "Ice Beam",
+            "Types": [
+                "ice"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Has a 10% chance to freeze the target.",
+            "level": 36
+        },
+        {
+            "key": "shellSmashNormal",
+            "move": "Shell Smash",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": null,
+            "effect": "lowers the user's Defense and Special Defense by one stage each, while also raising Attack, Special Attack and Speed by two stages each.",
+            "level": 40
+        },
+        {
+            "key": "hydroPumpWater",
+            "move": "Hydro Pump",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "120",
+            "pp": "5",
+            "acc": "80%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 45
+        }
+    ],
+    "types": [
+        {
+            "key": "water",
+            "name": "water",
+            "label": "Water",
+            "dmg": {
+                "doubleFrom": [
+                    "grass",
+                    "electric"
+                ],
+                "doubleTo": [
+                    "ground",
+                    "rock",
+                    "fire"
+                ],
+                "halfFrom": [
+                    "steel",
+                    "fire",
+                    "water",
+                    "ice"
+                ],
+                "halfTo": [
+                    "water",
+                    "grass",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

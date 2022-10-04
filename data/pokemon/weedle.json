@@ -1,0 +1,197 @@
+{
+    "id": 13,
+    "speciesId": 13,
+    "key": "weedle",
+    "label": "Weedle",
+    "spawns": [
+        {
+            "pokemonId": 13,
+            "area": "Viridian Forest",
+            "rate": "24%",
+            "levels": "03-06",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "weedle"
+        },
+        {
+            "pokemonId": 13,
+            "area": "Route 2",
+            "rate": "15%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "weedle"
+        },
+        {
+            "pokemonId": 13,
+            "area": "Route 2",
+            "rate": "15%",
+            "levels": "03-08",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "weedle"
+        }
+    ],
+    "index": 12,
+    "tms": null,
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "jolly",
+        "label": "Jolly",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "poisonStingPoison",
+            "move": "Poison Sting",
+            "Types": [
+                "poison"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Has a 30% chance to poison the target.",
+            "level": 1
+        },
+        {
+            "key": "stringShotBug",
+            "move": "String Shot",
+            "Types": [
+                "bug"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "95%",
+            "effect": "Lowers the target's Speed by one stage.",
+            "level": 1
+        }
+    ],
+    "types": [
+        {
+            "key": "bug",
+            "name": "bug",
+            "label": "Bug",
+            "dmg": {
+                "doubleFrom": [
+                    "flying",
+                    "rock",
+                    "fire"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "psychic",
+                    "dark"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "ground",
+                    "grass"
+                ],
+                "halfTo": [
+                    "fighting",
+                    "flying",
+                    "poison",
+                    "ghost",
+                    "steel",
+                    "fire",
+                    "fairy"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

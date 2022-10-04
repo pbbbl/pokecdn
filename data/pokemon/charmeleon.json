@@ -1,0 +1,148 @@
+{
+    "id": 5,
+    "speciesId": 5,
+    "key": "charmeleon",
+    "label": "Charmeleon",
+    "spawns": [],
+    "index": 4,
+    "tms": null,
+    "candies": [
+        {
+            "key": "smart",
+            "label": "Smart",
+            "ivKey": "spAtk",
+            "Pokemons": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur",
+                "charmeleon",
+                "charizard",
+                "butterfree",
+                "oddish",
+                "gloom",
+                "vileplume",
+                "venomoth",
+                "psyduck",
+                "golduck",
+                "abra",
+                "kadabra",
+                "alakazam",
+                "magnemite",
+                "magneton",
+                "gastly",
+                "haunter",
+                "gengar",
+                "exeggutor",
+                "horsea",
+                "seadra",
+                "jynx",
+                "magmar",
+                "porygon",
+                "zapdos",
+                "moltres",
+                "mewtwo",
+                "mew"
+            ]
+        },
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "hasty",
+        "label": "Hasty",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": null,
+    "types": [
+        {
+            "key": "fire",
+            "name": "fire",
+            "label": "Fire",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "rock",
+                    "water"
+                ],
+                "doubleTo": [
+                    "bug",
+                    "steel",
+                    "grass",
+                    "ice"
+                ],
+                "halfFrom": [
+                    "bug",
+                    "steel",
+                    "fire",
+                    "grass",
+                    "ice",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "rock",
+                    "fire",
+                    "water",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

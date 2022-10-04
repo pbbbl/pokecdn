@@ -1,0 +1,511 @@
+{
+    "id": 23,
+    "speciesId": 23,
+    "key": "ekans",
+    "label": "Ekans",
+    "spawns": [
+        {
+            "pokemonId": 23,
+            "area": "Route 3",
+            "rate": "20%",
+            "levels": "03-08",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "ekans"
+        },
+        {
+            "pokemonId": 23,
+            "area": "Route 4",
+            "rate": "20%",
+            "levels": "07-12",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "ekans"
+        }
+    ],
+    "index": 22,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm20",
+            "item": "TM20",
+            "label": "Dark Pulse",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm26",
+            "item": "TM26",
+            "label": "Poison Jab",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Man across water next to Rocket Corner"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm41",
+            "item": "TM41",
+            "label": "Earthquake",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Viridian City",
+                "Defeat Gym Leader [SPOILER](Giovanni)"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "adamant",
+        "label": "Adamant",
+        "choices": [
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "poisonStingPoison",
+            "move": "Poison Sting",
+            "Types": [
+                "poison"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Has a 30% chance to poison the target.",
+            "level": 1
+        },
+        {
+            "key": "wrapNormal",
+            "move": "Wrap",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "20",
+            "acc": "90%",
+            "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+            "level": 1
+        },
+        {
+            "key": "leerNormal",
+            "move": "Leer",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 4
+        },
+        {
+            "key": "acidPoison",
+            "move": "Acid",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Special Defense by one stage.",
+            "level": 8
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 12
+        },
+        {
+            "key": "hazeIce",
+            "move": "Haze",
+            "Types": [
+                "ice"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Resets all Pokemon's stats, accuracy, and evasion.",
+            "level": 16
+        },
+        {
+            "key": "glareNormal",
+            "move": "Glare",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "90%",
+            "effect": "Paralyzes the target.",
+            "level": 20
+        },
+        {
+            "key": "poisonJabPoison",
+            "move": "Poison Jab",
+            "Types": [
+                "poison"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a 30% chance of poisoning the target.",
+            "level": 24
+        },
+        {
+            "key": "slamNormal",
+            "move": "Slam",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "85",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 30% chance to paralyze the target.",
+            "level": 28
+        },
+        {
+            "key": "screechNormal",
+            "move": "Screech",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "85%",
+            "effect": "Lowers the target's Defense by two stages.",
+            "level": 32
+        },
+        {
+            "key": "toxicPoison",
+            "move": "Toxic",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Badly poisons the target, inflicting more damage every turn.",
+            "level": 36
+        }
+    ],
+    "types": [
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

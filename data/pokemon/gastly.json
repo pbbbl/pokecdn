@@ -1,0 +1,718 @@
+{
+    "id": 92,
+    "speciesId": 92,
+    "key": "gastly",
+    "label": "Gastly",
+    "spawns": [
+        {
+            "pokemonId": 92,
+            "area": "Pokemon Tower",
+            "rate": "75%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "gastly"
+        },
+        {
+            "pokemonId": 92,
+            "area": "Pokemon Tower",
+            "rate": "75%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "gastly"
+        },
+        {
+            "pokemonId": 92,
+            "area": "Pokemon Tower",
+            "rate": "70%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "gastly"
+        },
+        {
+            "pokemonId": 92,
+            "area": "Pokemon Tower",
+            "rate": "60%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "4F",
+            "Pokemon": "gastly"
+        }
+    ],
+    "index": 91,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm02",
+            "item": "TM02",
+            "label": "Taunt",
+            "Types": [
+                "Dark"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Opponent can only use damage-dealing moves for three turns.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Researcher in Lab"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm11",
+            "item": "TM11",
+            "label": "Will-O-Wisp",
+            "Types": [
+                "Fire"
+            ],
+            "kind": null,
+            "pp": "15",
+            "damage": null,
+            "accuracy": "85",
+            "description": "Opponent is burned.",
+            "howToGet": [
+                "Viridian City",
+                "SW Pond",
+                "Use Chop Down technique at bush next to pond, and speak with man next to pond (SW corner)"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm20",
+            "item": "TM20",
+            "label": "Dark Pulse",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm21",
+            "item": "TM21",
+            "label": "Foul Play",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "95",
+            "accuracy": "100",
+            "description": "Uses the opponent's Attack stat instead of the user's.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm23",
+            "item": "TM23",
+            "label": "Thunder Punch",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Dojo",
+                "Defeat Coach Trainer Leona"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm31",
+            "item": "TM31",
+            "label": "Fire Punch",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Route 15",
+                "Defeat Coach Trainer Midge"
+            ]
+        },
+        {
+            "key": "tm32",
+            "item": "TM32",
+            "label": "Dazzling Gleam",
+            "Types": [
+                "Fairy"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Route 12 Lower",
+                "Mr. Dazzling's House",
+                "Tell Mr. Dazzling his name"
+            ]
+        },
+        {
+            "key": "tm35",
+            "item": "TM35",
+            "label": "Ice Punch",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Route 21",
+                "Defeat Coach Trainer Pam"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm40",
+            "item": "TM40",
+            "label": "Psychic",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to lower opponent's Special Defence by 1 stage.",
+            "howToGet": [
+                "Saffron City",
+                "Mr. Psychic's House",
+                "Speak with Mr. Psychic"
+            ]
+        },
+        {
+            "key": "tm42",
+            "item": "TM42",
+            "label": "Self-Destruct",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "Deals damage and then the user faints.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "2F",
+                "Speak with employee at south end of the middle hallway"
+            ]
+        },
+        {
+            "key": "tm43",
+            "item": "TM43",
+            "label": "Shadow Ball",
+            "Types": [
+                "Ghost"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        },
+        {
+            "key": "tm59",
+            "item": "TM59",
+            "label": "Dream Eater",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Only usable on sleeping opponents. Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Route 12",
+                "Defeat Coach Trainer Priya"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "smart",
+            "label": "Smart",
+            "ivKey": "spAtk",
+            "Pokemons": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur",
+                "charmeleon",
+                "charizard",
+                "butterfree",
+                "oddish",
+                "gloom",
+                "vileplume",
+                "venomoth",
+                "psyduck",
+                "golduck",
+                "abra",
+                "kadabra",
+                "alakazam",
+                "magnemite",
+                "magneton",
+                "gastly",
+                "haunter",
+                "gengar",
+                "exeggutor",
+                "horsea",
+                "seadra",
+                "jynx",
+                "magmar",
+                "porygon",
+                "zapdos",
+                "moltres",
+                "mewtwo",
+                "mew"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "mild",
+        "label": "Mild",
+        "choices": [
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "hypnosisPsychic",
+            "move": "Hypnosis",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "60%",
+            "effect": "Puts the target to sleep.",
+            "level": 1
+        },
+        {
+            "key": "lickGhost",
+            "move": "Lick",
+            "Types": [
+                "ghost"
+            ],
+            "class": "Physical",
+            "pow": "20",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Has a 30% chance to paralyze the target.",
+            "level": 1
+        },
+        {
+            "key": "smogPoison",
+            "move": "Smog",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": "20",
+            "acc": "70%",
+            "effect": "Has a 40% chance to poison the target.",
+            "level": 1
+        },
+        {
+            "key": "confuseRayGhost",
+            "move": "Confuse Ray",
+            "Types": [
+                "ghost"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Confuses the target.",
+            "level": 5
+        },
+        {
+            "key": "poisonGasPoison",
+            "move": "Poison Gas",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "80%",
+            "effect": "Poisons the target.",
+            "level": 7
+        },
+        {
+            "key": "nightShadeGhost",
+            "move": "Night Shade",
+            "Types": [
+                "ghost"
+            ],
+            "class": "Special",
+            "pow": "1",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Inflicts damage equal to the user's level.",
+            "level": 12
+        },
+        {
+            "key": "willOWispFire",
+            "move": "Will-O-Wisp",
+            "Types": [
+                "fire"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "85%",
+            "effect": "Causes the target to become burned, if it hits. Burned Pokémon lose 1?8 of their maximum HP each turn and their Attack is decreased by 50%.",
+            "level": 14
+        },
+        {
+            "key": "suckerPunchDark",
+            "move": "Sucker Punch",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "5",
+            "acc": "100%",
+            "effect": "Deals damage and has a priority of +1. However, the move only works if the target uses a direct attack in the same turn. If the target is not preparing an attack, Sucker Punch will fail.",
+            "level": 19
+        },
+        {
+            "key": "toxicPoison",
+            "move": "Toxic",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Badly poisons the target, inflicting more damage every turn.",
+            "level": 21
+        },
+        {
+            "key": "shadowBallGhost",
+            "move": "Shadow Ball",
+            "Types": [
+                "ghost"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 20% chance of lowering the target's Special Defense by one stage.",
+            "level": 26
+        },
+        {
+            "key": "darkPulseDark",
+            "move": "Dark Pulse",
+            "Types": [
+                "dark"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 20% chance of causing the target to flinch",
+            "level": 28
+        },
+        {
+            "key": "dreamEaterPsychic",
+            "move": "Dream Eater",
+            "Types": [
+                "psychic"
+            ],
+            "class": "Special",
+            "pow": "100",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Only works on sleeping Pokemon. Heals the user by half the damage inflicted.",
+            "level": 33
+        }
+    ],
+    "types": [
+        {
+            "key": "ghost",
+            "name": "ghost",
+            "label": "Ghost",
+            "dmg": {
+                "doubleFrom": [
+                    "ghost",
+                    "dark"
+                ],
+                "doubleTo": [
+                    "ghost",
+                    "psychic"
+                ],
+                "halfFrom": [
+                    "poison",
+                    "bug"
+                ],
+                "halfTo": [
+                    "dark"
+                ],
+                "noneFrom": [
+                    "normal",
+                    "fighting"
+                ],
+                "noneTo": [
+                    "normal"
+                ]
+            }
+        },
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

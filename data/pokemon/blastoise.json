@@ -1,0 +1,739 @@
+{
+    "id": 9,
+    "speciesId": 9,
+    "key": "blastoise",
+    "label": "Blastoise",
+    "spawns": [],
+    "index": 8,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm13",
+            "item": "TM13",
+            "label": "Brick Break",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Breaks the effect of opponent's Light Screen or Reflect.",
+            "howToGet": [
+                "Route 10",
+                "Defeat Coach Trainer Tasha"
+            ]
+        },
+        {
+            "key": "tm15",
+            "item": "TM15",
+            "label": "Seismic Toss",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Deals damage equal to the user's level.",
+            "howToGet": [
+                "Route 25",
+                "Defeat Coach Trainer Amala"
+            ]
+        },
+        {
+            "key": "tm17",
+            "item": "TM17",
+            "label": "Dragon Tail",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "60",
+            "accuracy": "90",
+            "description": "Deals damage and forces the opposing Pokémon to switch out for another. Also ends wild battles.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm20",
+            "item": "TM20",
+            "label": "Dark Pulse",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm25",
+            "item": "TM25",
+            "label": "Waterfall",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm29",
+            "item": "TM29",
+            "label": "Scald",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cerulean City",
+                "Defeat Gym Leader Misty"
+            ]
+        },
+        {
+            "key": "tm34",
+            "item": "TM34",
+            "label": "Dragon Pulse",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "85",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "7F"
+            ]
+        },
+        {
+            "key": "tm35",
+            "item": "TM35",
+            "label": "Ice Punch",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Route 21",
+                "Defeat Coach Trainer Pam"
+            ]
+        },
+        {
+            "key": "tm39",
+            "item": "TM39",
+            "label": "Outrage",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "User repeats this move for two to three turns, then becomes confused.",
+            "howToGet": [
+                "Victory Road",
+                "Defeat Coach Trainer Ryan"
+            ]
+        },
+        {
+            "key": "tm41",
+            "item": "TM41",
+            "label": "Earthquake",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Viridian City",
+                "Defeat Gym Leader [SPOILER](Giovanni)"
+            ]
+        },
+        {
+            "key": "tm47",
+            "item": "TM47",
+            "label": "Surf",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Route 15"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm54",
+            "item": "TM54",
+            "label": "Flash Cannon",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "10 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "5F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "courage",
+            "label": "Courage",
+            "affects": "spDef",
+            "Pokemons": [
+                "ivysaur",
+                "venusaur",
+                "wartortle",
+                "blastoise",
+                "butterfree",
+                "beedrill",
+                "ninetales",
+                "venonat",
+                "tentacool",
+                "tentacruel",
+                "seel",
+                "dewgong",
+                "drowzee",
+                "hypno",
+                "hitmonchan",
+                "mrmime",
+                "eevee",
+                "articuno"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "sassy",
+        "label": "Sassy",
+        "choices": [
+            {
+                "label": "Green",
+                "color": "#73e68a",
+                "iv": {
+                    "label": "Special Defense",
+                    "shortLabel": "Sp. Def"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "aquaJetWater",
+            "move": "Aqua Jet",
+            "Types": [
+                "water"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a priority of +1.Moves with a higher priority always go first.",
+            "level": 1
+        },
+        {
+            "key": "bubbleWater",
+            "move": "Bubble",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Speed by one stage.",
+            "level": 1
+        },
+        {
+            "key": "fakeOutNormal",
+            "move": "Fake Out",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "attacks with a priority of +3 and causes the target to flinch if it hits.",
+            "level": 1
+        },
+        {
+            "key": "flashCannonSteel",
+            "move": "Flash Cannon",
+            "Types": [
+                "steel"
+            ],
+            "class": "Special",
+            "pow": "80",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of lowering the target's Special Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "withdrawWater",
+            "move": "Withdraw",
+            "Types": [
+                "water"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises the user's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 5
+        },
+        {
+            "key": "bubbleWater",
+            "move": "Bubble",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Speed by one stage.",
+            "level": 9
+        },
+        {
+            "key": "withdrawWater",
+            "move": "Withdraw",
+            "Types": [
+                "water"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises the user's Defense by one stage.",
+            "level": 14
+        },
+        {
+            "key": "waterGunWater",
+            "move": "Water Gun",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 20
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 27
+        },
+        {
+            "key": "bubbleBeamWater",
+            "move": "Bubble Beam",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "65",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of lowering the target's Speed by one stage.",
+            "level": 33
+        },
+        {
+            "key": "protectNormal",
+            "move": "Protect",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "prevents any attacks targeted at the user from striking, for the duration of the turn. It has priority +4 so will activate before most other moves.",
+            "level": 44
+        },
+        {
+            "key": "headbuttNormal",
+            "move": "Headbutt",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 54
+        },
+        {
+            "key": "hydroPumpWater",
+            "move": "Hydro Pump",
+            "Types": [
+                "water"
+            ],
+            "class": "Special",
+            "pow": "120",
+            "pp": "5",
+            "acc": "80%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 65
+        },
+        {
+            "key": "skullBashNormal",
+            "move": "Skull Bash",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "100",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Raises the user's Defense by one stage. User charges for one turn before attacking.",
+            "level": 75
+        }
+    ],
+    "types": [
+        {
+            "key": "water",
+            "name": "water",
+            "label": "Water",
+            "dmg": {
+                "doubleFrom": [
+                    "grass",
+                    "electric"
+                ],
+                "doubleTo": [
+                    "ground",
+                    "rock",
+                    "fire"
+                ],
+                "halfFrom": [
+                    "steel",
+                    "fire",
+                    "water",
+                    "ice"
+                ],
+                "halfTo": [
+                    "water",
+                    "grass",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

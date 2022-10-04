@@ -1,0 +1,535 @@
+{
+    "id": 144,
+    "speciesId": 144,
+    "key": "articuno",
+    "label": "Articuno",
+    "spawns": [
+        {
+            "pokemonId": 144,
+            "area": "Route 22",
+            "rate": "Rare Spawn",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "articuno"
+        },
+        {
+            "pokemonId": 144,
+            "area": "Route 23",
+            "rate": "Rare Spawn",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "articuno"
+        },
+        {
+            "pokemonId": 144,
+            "area": "Route 24",
+            "rate": "Rare Spawn",
+            "levels": "07-12",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "articuno"
+        },
+        {
+            "pokemonId": 144,
+            "area": "Route 25",
+            "rate": "Rare Spawn",
+            "levels": "09-14",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "articuno"
+        }
+    ],
+    "index": 143,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm14",
+            "item": "TM14",
+            "label": "Fly",
+            "Types": [
+                "Flying"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "95",
+            "description": "User flys into the sky on the first turn, making it invulnerable to most attacks, and attacks on the second turn.",
+            "howToGet": [
+                "Route 16",
+                "Talk to lady in northern house"
+            ]
+        },
+        {
+            "key": "tm18",
+            "item": "TM18",
+            "label": "U-Turn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "User deals damage and then switches out for another party Pokémon.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm50",
+            "item": "TM50",
+            "label": "Roost",
+            "Types": [
+                "Flying"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "Restores 50 per cent of user's max HP.",
+            "howToGet": [
+                "Route 12",
+                "Gatehouse",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "courage",
+            "label": "Courage",
+            "affects": "spDef",
+            "Pokemons": [
+                "ivysaur",
+                "venusaur",
+                "wartortle",
+                "blastoise",
+                "butterfree",
+                "beedrill",
+                "ninetales",
+                "venonat",
+                "tentacool",
+                "tentacruel",
+                "seel",
+                "dewgong",
+                "drowzee",
+                "hypno",
+                "hitmonchan",
+                "mrmime",
+                "eevee",
+                "articuno"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "calm",
+        "label": "Calm",
+        "choices": [
+            {
+                "label": "Green",
+                "color": "#73e68a",
+                "iv": {
+                    "label": "Special Defense",
+                    "shortLabel": "Sp. Def"
+                }
+            },
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "gustFlying",
+            "move": "Gust",
+            "Types": [
+                "flying"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage and can hit Pokemon in the air.",
+            "level": 1
+        },
+        {
+            "key": "iceShardIce",
+            "move": "Ice Shard",
+            "Types": [
+                "ice"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "deals damage and has a priority of +1. Moves with a higher priority always go first.",
+            "level": 1
+        },
+        {
+            "key": "mistIce",
+            "move": "Mist",
+            "Types": [
+                "ice"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Protects the user's stats from being changed by enemy moves.",
+            "level": 8
+        },
+        {
+            "key": "leerNormal",
+            "move": "Leer",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 16
+        },
+        {
+            "key": "mirrorCoatPsychic",
+            "move": "Mirror Coat",
+            "Types": [
+                "psychic"
+            ],
+            "class": "Special",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "When hit by a Special Attack, user strikes back with 2x power.",
+            "level": 24
+        },
+        {
+            "key": "iceBeamIce",
+            "move": "Ice Beam",
+            "Types": [
+                "ice"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Has a 10% chance to freeze the target.",
+            "level": 32
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 40
+        },
+        {
+            "key": "reflectPsychic",
+            "move": "Reflect",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "Reduces damage from physical attacks by half.",
+            "level": 48
+        },
+        {
+            "key": "roostFlying",
+            "move": "Roost",
+            "Types": [
+                "flying"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "User recovers half of its max HP and loses the Flying type temporarily.",
+            "level": 56
+        },
+        {
+            "key": "blizzardIce",
+            "move": "Blizzard",
+            "Types": [
+                "ice"
+            ],
+            "class": "Special",
+            "pow": "120",
+            "pp": "5",
+            "acc": "70%",
+            "effect": "Has a 10% chance to freeze the target.",
+            "level": 64
+        },
+        {
+            "key": "skyAttackFlying",
+            "move": "Sky Attack",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "140",
+            "pp": "5",
+            "acc": "90%",
+            "effect": "User charges for one turn before attacking. Has a 30% chance to make the target flinch.",
+            "level": 72
+        }
+    ],
+    "types": [
+        {
+            "key": "ice",
+            "name": "ice",
+            "label": "Ice",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting",
+                    "rock",
+                    "steel",
+                    "fire"
+                ],
+                "doubleTo": [
+                    "flying",
+                    "ground",
+                    "grass",
+                    "dragon"
+                ],
+                "halfFrom": [
+                    "ice"
+                ],
+                "halfTo": [
+                    "steel",
+                    "fire",
+                    "water",
+                    "ice"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "flying",
+            "name": "flying",
+            "label": "Flying",
+            "dmg": {
+                "doubleFrom": [
+                    "rock",
+                    "electric",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfTo": [
+                    "rock",
+                    "steel",
+                    "electric"
+                ],
+                "noneFrom": [
+                    "ground"
+                ],
+                "noneTo": null
+            }
+        }
+    ]
+}

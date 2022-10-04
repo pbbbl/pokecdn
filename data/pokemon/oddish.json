@@ -1,0 +1,567 @@
+{
+    "id": 43,
+    "speciesId": 43,
+    "key": "oddish",
+    "label": "Oddish",
+    "spawns": [
+        {
+            "pokemonId": 43,
+            "area": "Route 1",
+            "rate": "30%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 2",
+            "rate": "20%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 2",
+            "rate": "20%",
+            "levels": "03-08",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 24",
+            "rate": "20%",
+            "levels": "07-12",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 25",
+            "rate": "20%",
+            "levels": "09-14",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 12",
+            "rate": "15%",
+            "levels": "31-36",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 13",
+            "rate": "15%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 14",
+            "rate": "15%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 15",
+            "rate": "15%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Viridian Forest",
+            "rate": "10%",
+            "levels": "03-06",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        },
+        {
+            "pokemonId": 43,
+            "area": "Route 21",
+            "rate": "1%",
+            "levels": "37-42",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "oddish"
+        }
+    ],
+    "index": 42,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm32",
+            "item": "TM32",
+            "label": "Dazzling Gleam",
+            "Types": [
+                "Fairy"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Route 12 Lower",
+                "Mr. Dazzling's House",
+                "Tell Mr. Dazzling his name"
+            ]
+        },
+        {
+            "key": "tm45",
+            "item": "TM45",
+            "label": "Solar Beam",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "User charges up during first turn, dealing damage on the second.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "smart",
+            "label": "Smart",
+            "ivKey": "spAtk",
+            "Pokemons": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur",
+                "charmeleon",
+                "charizard",
+                "butterfree",
+                "oddish",
+                "gloom",
+                "vileplume",
+                "venomoth",
+                "psyduck",
+                "golduck",
+                "abra",
+                "kadabra",
+                "alakazam",
+                "magnemite",
+                "magneton",
+                "gastly",
+                "haunter",
+                "gengar",
+                "exeggutor",
+                "horsea",
+                "seadra",
+                "jynx",
+                "magmar",
+                "porygon",
+                "zapdos",
+                "moltres",
+                "mewtwo",
+                "mew"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "quiet",
+        "label": "Quiet",
+        "choices": [
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "absorbGrass",
+            "move": "Absorb",
+            "Types": [
+                "grass"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": null,
+            "acc": null,
+            "effect": null,
+            "level": 1
+        },
+        {
+            "key": "growthNormal",
+            "move": "Growth",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises the user's Attack and Special Attack by one stage.",
+            "level": 4
+        },
+        {
+            "key": "acidPoison",
+            "move": "Acid",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Special Defense by one stage.",
+            "level": 8
+        },
+        {
+            "key": "poisonPowderPoison",
+            "move": "Poison Powder",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "35",
+            "acc": "75%",
+            "effect": "causes the target to become poisoned. Poisoned Pokémon lose 1?8 of their maximum HP each turn.",
+            "level": 12
+        },
+        {
+            "key": "stunSporeGrass",
+            "move": "Stun Spore",
+            "Types": [
+                "grass"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "75%",
+            "effect": "Paralyzes the target.",
+            "level": 13
+        },
+        {
+            "key": "sleepPowderGrass",
+            "move": "Sleep Powder",
+            "Types": [
+                "grass"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "75%",
+            "effect": "Puts the target to sleep.",
+            "level": 14
+        },
+        {
+            "key": "razorLeafGrass",
+            "move": "Razor Leaf",
+            "Types": [
+                "grass"
+            ],
+            "class": "Physical",
+            "pow": "55",
+            "pp": "25",
+            "acc": "95%",
+            "effect": "Has an increased chance for a critical hit.",
+            "level": 18
+        },
+        {
+            "key": "megaDrainGrass",
+            "move": "Mega Drain",
+            "Types": [
+                "grass"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Heals the user by half the damage inflicted.",
+            "level": 22
+        },
+        {
+            "key": "toxicPoison",
+            "move": "Toxic",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Badly poisons the target, inflicting more damage every turn.",
+            "level": 26
+        },
+        {
+            "key": "moonblastFairy",
+            "move": "Moonblast",
+            "Types": [
+                "fairy"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 30% chance of lowering the target's Special Attack by one stage.",
+            "level": 30
+        }
+    ],
+    "types": [
+        {
+            "key": "grass",
+            "name": "grass",
+            "label": "Grass",
+            "dmg": {
+                "doubleFrom": [
+                    "flying",
+                    "poison",
+                    "bug",
+                    "fire",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "ground",
+                    "rock",
+                    "water"
+                ],
+                "halfFrom": [
+                    "ground",
+                    "water",
+                    "grass",
+                    "electric"
+                ],
+                "halfTo": [
+                    "flying",
+                    "poison",
+                    "bug",
+                    "steel",
+                    "fire",
+                    "grass",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

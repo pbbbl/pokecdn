@@ -1,0 +1,508 @@
+{
+    "id": 106,
+    "speciesId": 106,
+    "key": "hitmonlee",
+    "label": "Hitmonlee",
+    "spawns": [
+        {
+            "pokemonId": 106,
+            "area": "Victory Road",
+            "rate": "Rare Spawn",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "hitmonlee"
+        }
+    ],
+    "index": 105,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm03",
+            "item": "TM03",
+            "label": "Helping Hand",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Boost ally Pokémon's attack by 1 stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "3F",
+                "Speak with Clerk"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm13",
+            "item": "TM13",
+            "label": "Brick Break",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Breaks the effect of opponent's Light Screen or Reflect.",
+            "howToGet": [
+                "Route 10",
+                "Defeat Coach Trainer Tasha"
+            ]
+        },
+        {
+            "key": "tm15",
+            "item": "TM15",
+            "label": "Seismic Toss",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Deals damage equal to the user's level.",
+            "howToGet": [
+                "Route 25",
+                "Defeat Coach Trainer Amala"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm26",
+            "item": "TM26",
+            "label": "Poison Jab",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Man across water next to Rocket Corner"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm30",
+            "item": "TM30",
+            "label": "Bulk Up",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Raises user's Attack and Defense stats by 1 stage each.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm41",
+            "item": "TM41",
+            "label": "Earthquake",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Viridian City",
+                "Defeat Gym Leader [SPOILER](Giovanni)"
+            ]
+        },
+        {
+            "key": "tm49",
+            "item": "TM49",
+            "label": "Superpower",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "Lowers the user's Attack and Defense stats by one stage.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "adamant",
+        "label": "Adamant",
+        "choices": [
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "rollingKickFighting",
+            "move": "Rolling Kick",
+            "Types": [
+                "fighting"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "15",
+            "acc": "85%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 1
+        },
+        {
+            "key": "meditatePsychic",
+            "move": "Meditate",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises the user's Attack by one stage.",
+            "level": 5
+        },
+        {
+            "key": "doubleKickFighting",
+            "move": "Double Kick",
+            "Types": [
+                "fighting"
+            ],
+            "class": "Physical",
+            "pow": "30",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Hits twice in one turn.",
+            "level": 10
+        },
+        {
+            "key": "feintNormal",
+            "move": "Feint",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "30",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "only hits if the target used Protect or Detect in the same turn.",
+            "level": 15
+        },
+        {
+            "key": "brickBreakFighting",
+            "move": "Brick Break",
+            "Types": [
+                "fighting"
+            ],
+            "class": "Physical",
+            "pow": "75",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage, but removes the effects of Reflect and Light Screen before attacking.",
+            "level": 20
+        },
+        {
+            "key": "facadeNormal",
+            "move": "Facade",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage, and hits with double power (140) if the user is burned, poisoned or paralyzed.",
+            "level": 25
+        },
+        {
+            "key": "jumpKickFighting",
+            "move": "Jump Kick",
+            "Types": [
+                "fighting"
+            ],
+            "class": "Physical",
+            "pow": "100",
+            "pp": "10",
+            "acc": "95%",
+            "effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+            "level": 30
+        },
+        {
+            "key": "focusEnergyNormal",
+            "move": "Focus Energy",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Increases the user's chance to score a critical hit.",
+            "level": 35
+        },
+        {
+            "key": "megaKickNormal",
+            "move": "Mega Kick",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "5",
+            "acc": "75%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 40
+        },
+        {
+            "key": "highJumpKick",
+            "move": "High Jump Kick",
+            "Types": [
+                null
+            ],
+            "class": null,
+            "pow": null,
+            "pp": null,
+            "acc": null,
+            "effect": null,
+            "level": 45
+        }
+    ],
+    "types": [
+        {
+            "key": "fighting",
+            "name": "fighting",
+            "label": "Fighting",
+            "dmg": {
+                "doubleFrom": [
+                    "flying",
+                    "psychic",
+                    "fairy"
+                ],
+                "doubleTo": [
+                    "normal",
+                    "rock",
+                    "steel",
+                    "ice",
+                    "dark"
+                ],
+                "halfFrom": [
+                    "rock",
+                    "bug",
+                    "dark"
+                ],
+                "halfTo": [
+                    "flying",
+                    "poison",
+                    "bug",
+                    "psychic",
+                    "fairy"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "ghost"
+                ]
+            }
+        }
+    ]
+}

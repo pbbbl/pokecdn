@@ -1,0 +1,578 @@
+{
+    "id": 4,
+    "speciesId": 4,
+    "key": "charmander",
+    "label": "Charmander",
+    "spawns": [
+        {
+            "pokemonId": 4,
+            "area": "Power Plant",
+            "rate": "Rare Spawn",
+            "levels": "37-42",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "charmander"
+        },
+        {
+            "pokemonId": 4,
+            "area": "Route 3",
+            "rate": "Rare Spawn",
+            "levels": "03-08",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "charmander"
+        },
+        {
+            "pokemonId": 4,
+            "area": "Route 4",
+            "rate": "Rare Spawn",
+            "levels": "07-12",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "charmander"
+        }
+    ],
+    "index": 3,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        null,
+        {
+            "key": "tm11",
+            "item": "TM11",
+            "label": "Will-O-Wisp",
+            "Types": [
+                "Fire"
+            ],
+            "kind": null,
+            "pp": "15",
+            "damage": null,
+            "accuracy": "85",
+            "description": "Opponent is burned.",
+            "howToGet": [
+                "Viridian City",
+                "SW Pond",
+                "Use Chop Down technique at bush next to pond, and speak with man next to pond (SW corner)"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm13",
+            "item": "TM13",
+            "label": "Brick Break",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Breaks the effect of opponent's Light Screen or Reflect.",
+            "howToGet": [
+                "Route 10",
+                "Defeat Coach Trainer Tasha"
+            ]
+        },
+        {
+            "key": "tm15",
+            "item": "TM15",
+            "label": "Seismic Toss",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Deals damage equal to the user's level.",
+            "howToGet": [
+                "Route 25",
+                "Defeat Coach Trainer Amala"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm23",
+            "item": "TM23",
+            "label": "Thunder Punch",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Dojo",
+                "Defeat Coach Trainer Leona"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm31",
+            "item": "TM31",
+            "label": "Fire Punch",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Route 15",
+                "Defeat Coach Trainer Midge"
+            ]
+        },
+        {
+            "key": "tm34",
+            "item": "TM34",
+            "label": "Dragon Pulse",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "85",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "7F"
+            ]
+        },
+        {
+            "key": "tm37",
+            "item": "TM37",
+            "label": "Flamethrower",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "10F"
+            ]
+        },
+        {
+            "key": "tm39",
+            "item": "TM39",
+            "label": "Outrage",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "User repeats this move for two to three turns, then becomes confused.",
+            "howToGet": [
+                "Victory Road",
+                "Defeat Coach Trainer Ryan"
+            ]
+        },
+        {
+            "key": "tm46",
+            "item": "TM46",
+            "label": "Fire Blast",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "85",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Defeat Gym Leader Blaine"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "hasty",
+        "label": "Hasty",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "scratchNormal",
+            "move": "Scratch",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "growlNormal",
+            "move": "Growl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "100%",
+            "effect": "Lowers the target's Attack by one stage.",
+            "level": 4
+        },
+        {
+            "key": "smokescreenNormal",
+            "move": "Smokescreen",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Lowers the target's accuracy by one stage.",
+            "level": 9
+        },
+        {
+            "key": "emberFire",
+            "move": "Ember",
+            "Types": [
+                "fire"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 10% chance to burn the target.",
+            "level": 13
+        },
+        {
+            "key": "furySwipesNormal",
+            "move": "Fury Swipes",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "18",
+            "pp": "15",
+            "acc": "80%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 18
+        },
+        {
+            "key": "dragonRageDragon",
+            "move": "Dragon Rage",
+            "Types": [
+                "dragon"
+            ],
+            "class": "Special",
+            "pow": "1",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Inflicts 40 points of damage.",
+            "level": 22
+        },
+        {
+            "key": "fireSpinFire",
+            "move": "Fire Spin",
+            "Types": [
+                "fire"
+            ],
+            "class": "Special",
+            "pow": "35",
+            "pp": "15",
+            "acc": "85%",
+            "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+            "level": 27
+        },
+        {
+            "key": "slashNormal",
+            "move": "Slash",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has an increased chance for a critical hit.",
+            "level": 31
+        },
+        {
+            "key": "flamethrowerFire",
+            "move": "Flamethrower",
+            "Types": [
+                "fire"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 10% chance to burn the target.",
+            "level": 36
+        }
+    ],
+    "types": [
+        {
+            "key": "fire",
+            "name": "fire",
+            "label": "Fire",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "rock",
+                    "water"
+                ],
+                "doubleTo": [
+                    "bug",
+                    "steel",
+                    "grass",
+                    "ice"
+                ],
+                "halfFrom": [
+                    "bug",
+                    "steel",
+                    "fire",
+                    "grass",
+                    "ice",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "rock",
+                    "fire",
+                    "water",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,603 @@
+{
+    "id": 135,
+    "speciesId": 135,
+    "key": "jolteon",
+    "label": "Jolteon",
+    "spawns": [],
+    "index": 134,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm03",
+            "item": "TM03",
+            "label": "Helping Hand",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Boost ally Pokémon's attack by 1 stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "3F",
+                "Speak with Clerk"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm06",
+            "item": "TM06",
+            "label": "Light Screen",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "30",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Special Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Deparment Store Roof",
+                "Roof",
+                "Give water to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm16",
+            "item": "TM16",
+            "label": "Thunder Wave",
+            "Types": [
+                "Electric"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is paralyzed.",
+            "howToGet": [
+                "Route 25",
+                "In hedge maze"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm43",
+            "item": "TM43",
+            "label": "Shadow Ball",
+            "Types": [
+                "Ghost"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm57",
+            "item": "TM57",
+            "label": "Pay Day",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "40",
+            "accuracy": "100",
+            "description": "User earns a little money after the battle.",
+            "howToGet": [
+                "Route 4 West",
+                "Defeat Coach Trainer Oberon"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "hasty",
+        "label": "Hasty",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "thunderShockElectric",
+            "move": "Thunder Shock",
+            "Types": [
+                "electric"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of paralyzing the target.",
+            "level": 0
+        },
+        {
+            "key": "growlNormal",
+            "move": "Growl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "100%",
+            "effect": "Lowers the target's Attack by one stage.",
+            "level": 1
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 1
+        },
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "thunderShockElectric",
+            "move": "Thunder Shock",
+            "Types": [
+                "electric"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "deals damage and has a 10% chance of paralyzing the target.",
+            "level": 1
+        },
+        {
+            "key": "yawnNormal",
+            "move": "Yawn",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "makes the target drowsy on the turn it is used. If the target is still on the field at the end of the next turn, it falls asleep.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 3
+        },
+        {
+            "key": "quickAttackNormal",
+            "move": "Quick Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 6
+        },
+        {
+            "key": "doubleKickFighting",
+            "move": "Double Kick",
+            "Types": [
+                "fighting"
+            ],
+            "class": "Physical",
+            "pow": "30",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Hits twice in one turn.",
+            "level": 10
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 14
+        },
+        {
+            "key": "pinMissileBug",
+            "move": "Pin Missile",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "14",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 17
+        },
+        {
+            "key": "thunderWaveElectric",
+            "move": "Thunder Wave",
+            "Types": [
+                "electric"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Paralyzes the target.",
+            "level": 21
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 24
+        },
+        {
+            "key": "helpingHandNormal",
+            "move": "Helping Hand",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "boosts the power of the partner's move.",
+            "level": 28
+        },
+        {
+            "key": "thunderElectric",
+            "move": "Thunder",
+            "Types": [
+                "electric"
+            ],
+            "class": "Special",
+            "pow": "95",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 10% chance to paralyze the target.",
+            "level": 31
+        }
+    ],
+    "types": [
+        {
+            "key": "electric",
+            "name": "electric",
+            "label": "Electric",
+            "dmg": {
+                "doubleFrom": [
+                    "ground"
+                ],
+                "doubleTo": [
+                    "flying",
+                    "water"
+                ],
+                "halfFrom": [
+                    "flying",
+                    "steel",
+                    "electric"
+                ],
+                "halfTo": [
+                    "grass",
+                    "electric",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "ground"
+                ]
+            }
+        }
+    ]
+}

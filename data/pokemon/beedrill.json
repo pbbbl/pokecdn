@@ -1,0 +1,623 @@
+{
+    "id": 15,
+    "speciesId": 15,
+    "key": "beedrill",
+    "label": "Beedrill",
+    "spawns": [],
+    "index": 14,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm13",
+            "item": "TM13",
+            "label": "Brick Break",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Breaks the effect of opponent's Light Screen or Reflect.",
+            "howToGet": [
+                "Route 10",
+                "Defeat Coach Trainer Tasha"
+            ]
+        },
+        {
+            "key": "tm18",
+            "item": "TM18",
+            "label": "U-Turn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "User deals damage and then switches out for another party Pokémon.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm24",
+            "item": "TM24",
+            "label": "X-Scissor",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Route 12",
+                "Lower",
+                "Small Island"
+            ]
+        },
+        {
+            "key": "tm26",
+            "item": "TM26",
+            "label": "Poison Jab",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Man across water next to Rocket Corner"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm39",
+            "item": "TM39",
+            "label": "Outrage",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "User repeats this move for two to three turns, then becomes confused.",
+            "howToGet": [
+                "Victory Road",
+                "Defeat Coach Trainer Ryan"
+            ]
+        },
+        {
+            "key": "tm45",
+            "item": "TM45",
+            "label": "Solar Beam",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "User charges up during first turn, dealing damage on the second.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm50",
+            "item": "TM50",
+            "label": "Roost",
+            "Types": [
+                "Flying"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "Restores 50 per cent of user's max HP.",
+            "howToGet": [
+                "Route 12",
+                "Gatehouse",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        },
+        {
+            "key": "tm58",
+            "item": "TM58",
+            "label": "Drill Run",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "95",
+            "description": "3x the usual chance to land a critical hit.",
+            "howToGet": [
+                "Route 17",
+                "Defeat Coach Trainer Grantley"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        },
+        {
+            "key": "courage",
+            "label": "Courage",
+            "affects": "spDef",
+            "Pokemons": [
+                "ivysaur",
+                "venusaur",
+                "wartortle",
+                "blastoise",
+                "butterfree",
+                "beedrill",
+                "ninetales",
+                "venonat",
+                "tentacool",
+                "tentacruel",
+                "seel",
+                "dewgong",
+                "drowzee",
+                "hypno",
+                "hitmonchan",
+                "mrmime",
+                "eevee",
+                "articuno"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "lonely",
+        "label": "Lonely",
+        "choices": [
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "twineedleBug",
+            "move": "Twineedle",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "25",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Hits twice in the same turn. Has a 20% chance to poison the target.",
+            "level": 0
+        },
+        {
+            "key": "peckFlying",
+            "move": "Peck",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "35",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "twineedleBug",
+            "move": "Twineedle",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "25",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Hits twice in the same turn. Has a 20% chance to poison the target.",
+            "level": 1
+        },
+        {
+            "key": "rageNormal",
+            "move": "Rage",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "20",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "If the user is hit after using this move, its Attack rises by one stage.",
+            "level": 13
+        },
+        {
+            "key": "furyAttackNormal",
+            "move": "Fury Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 16
+        },
+        {
+            "key": "focusEnergyNormal",
+            "move": "Focus Energy",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Increases the user's chance to score a critical hit.",
+            "level": 19
+        },
+        {
+            "key": "poisonJabPoison",
+            "move": "Poison Jab",
+            "Types": [
+                "poison"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a 30% chance of poisoning the target.",
+            "level": 22
+        },
+        {
+            "key": "agilityPsychic",
+            "move": "Agility",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Speed by two stages.",
+            "level": 25
+        },
+        {
+            "key": "pinMissileBug",
+            "move": "Pin Missile",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "14",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 28
+        },
+        {
+            "key": "outrageDragon",
+            "move": "Outrage",
+            "Types": [
+                "dragon"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "The user of Outrage attacks for 2-3 turns, during which it cannot switch out, and then becomes confused.",
+            "level": 31
+        }
+    ],
+    "types": [
+        {
+            "key": "bug",
+            "name": "bug",
+            "label": "Bug",
+            "dmg": {
+                "doubleFrom": [
+                    "flying",
+                    "rock",
+                    "fire"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "psychic",
+                    "dark"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "ground",
+                    "grass"
+                ],
+                "halfTo": [
+                    "fighting",
+                    "flying",
+                    "poison",
+                    "ghost",
+                    "steel",
+                    "fire",
+                    "fairy"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

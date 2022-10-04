@@ -1,0 +1,537 @@
+{
+    "id": 109,
+    "speciesId": 109,
+    "key": "koffing",
+    "label": "Koffing",
+    "spawns": [
+        {
+            "pokemonId": 109,
+            "area": "Pokemon Mansion",
+            "rate": "30%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "koffing"
+        },
+        {
+            "pokemonId": 109,
+            "area": "Power Plant",
+            "rate": "25%",
+            "levels": "37-42",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "koffing"
+        }
+    ],
+    "index": 108,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm02",
+            "item": "TM02",
+            "label": "Taunt",
+            "Types": [
+                "Dark"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Opponent can only use damage-dealing moves for three turns.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Researcher in Lab"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm11",
+            "item": "TM11",
+            "label": "Will-O-Wisp",
+            "Types": [
+                "Fire"
+            ],
+            "kind": null,
+            "pp": "15",
+            "damage": null,
+            "accuracy": "85",
+            "description": "Opponent is burned.",
+            "howToGet": [
+                "Viridian City",
+                "SW Pond",
+                "Use Chop Down technique at bush next to pond, and speak with man next to pond (SW corner)"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm20",
+            "item": "TM20",
+            "label": "Dark Pulse",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm37",
+            "item": "TM37",
+            "label": "Flamethrower",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "10F"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm42",
+            "item": "TM42",
+            "label": "Self-Destruct",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "Deals damage and then the user faints.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "2F",
+                "Speak with employee at south end of the middle hallway"
+            ]
+        },
+        {
+            "key": "tm43",
+            "item": "TM43",
+            "label": "Shadow Ball",
+            "Types": [
+                "Ghost"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm46",
+            "item": "TM46",
+            "label": "Fire Blast",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "85",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Defeat Gym Leader Blaine"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "tough",
+            "label": "Tough",
+            "affects": "spDef",
+            "Pokemons": [
+                "squirtle",
+                "wartortle",
+                "metapod",
+                "kakuna",
+                "sandshrew",
+                "sandslash",
+                "paras",
+                "parasect",
+                "poliwrath",
+                "geodude",
+                "graveler",
+                "golem",
+                "slowbro",
+                "shellder",
+                "cloyster",
+                "onix",
+                "exeggcute",
+                "cubone",
+                "marowak",
+                "koffing",
+                "weezing",
+                "rhyhorn",
+                "tangela",
+                "seadra",
+                "omanyte",
+                "omastar",
+                "kabuto"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "relaxed",
+        "label": "Relaxed",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "poisonGasPoison",
+            "move": "Poison Gas",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "80%",
+            "effect": "Poisons the target.",
+            "level": 1
+        },
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "smogPoison",
+            "move": "Smog",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": "20",
+            "acc": "70%",
+            "effect": "Has a 40% chance to poison the target.",
+            "level": 6
+        },
+        {
+            "key": "clearSmogPoison",
+            "move": "Clear Smog",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "50",
+            "pp": "15",
+            "acc": null,
+            "effect": "Removes all of the target's stat changes.",
+            "level": 12
+        },
+        {
+            "key": "sludgePoison",
+            "move": "Sludge",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "65",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has a 30% chance to poison the target.",
+            "level": 18
+        },
+        {
+            "key": "selfDestructNormal",
+            "move": "Self-Destruct",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "200",
+            "pp": "5",
+            "acc": "100%",
+            "effect": "Self-Destruct deals high damage, but causes the user to faint.",
+            "level": 24
+        },
+        {
+            "key": "toxicPoison",
+            "move": "Toxic",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Badly poisons the target, inflicting more damage every turn.",
+            "level": 30
+        },
+        {
+            "key": "hazeIce",
+            "move": "Haze",
+            "Types": [
+                "ice"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Resets all Pokemon's stats, accuracy, and evasion.",
+            "level": 36
+        },
+        {
+            "key": "sludgeBombPoison",
+            "move": "Sludge Bomb",
+            "Types": [
+                "poison"
+            ],
+            "class": "Special",
+            "pow": "90",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "deals damage and has a 30% chance of poisoning the target.",
+            "level": 42
+        },
+        {
+            "key": "explosionNormal",
+            "move": "Explosion",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "250",
+            "pp": "5",
+            "acc": "100%",
+            "effect": "User faints.",
+            "level": 48
+        }
+    ],
+    "types": [
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

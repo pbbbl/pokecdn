@@ -1,0 +1,657 @@
+{
+    "id": 53,
+    "speciesId": 53,
+    "key": "persian",
+    "label": "Persian",
+    "spawns": [],
+    "index": 52,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm02",
+            "item": "TM02",
+            "label": "Taunt",
+            "Types": [
+                "Dark"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Opponent can only use damage-dealing moves for three turns.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Researcher in Lab"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm18",
+            "item": "TM18",
+            "label": "U-Turn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "User deals damage and then switches out for another party Pokémon.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm20",
+            "item": "TM20",
+            "label": "Dark Pulse",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm21",
+            "item": "TM21",
+            "label": "Foul Play",
+            "Types": [
+                "Dark"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "95",
+            "accuracy": "100",
+            "description": "Uses the opponent's Attack stat instead of the user's.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm43",
+            "item": "TM43",
+            "label": "Shadow Ball",
+            "Types": [
+                "Ghost"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm44",
+            "item": "TM44",
+            "label": "Play Rough",
+            "Types": [
+                "Fairy"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "90",
+            "description": "10 per cent chance to lower opponent's Special Attack.",
+            "howToGet": [
+                "Celadon City",
+                "Condominiums",
+                "Enter from the north (back/hidden) side of the condos."
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm57",
+            "item": "TM57",
+            "label": "Pay Day",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "40",
+            "accuracy": "100",
+            "description": "User earns a little money after the battle.",
+            "howToGet": [
+                "Route 4 West",
+                "Defeat Coach Trainer Oberon"
+            ]
+        },
+        {
+            "key": "tm59",
+            "item": "TM59",
+            "label": "Dream Eater",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Only usable on sleeping opponents. Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Route 12",
+                "Defeat Coach Trainer Priya"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "hasty",
+        "label": "Hasty",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "swiftNormal",
+            "move": "Swift",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "60",
+            "pp": "20",
+            "acc": null,
+            "effect": "Never misses.",
+            "level": 0
+        },
+        {
+            "key": "amnesiaPsychic",
+            "move": "Amnesia",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "Raises the user's Special Defense by two stages.",
+            "level": 1
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 1
+        },
+        {
+            "key": "fakeOutNormal",
+            "move": "Fake Out",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "attacks with a priority of +3 and causes the target to flinch if it hits.",
+            "level": 1
+        },
+        {
+            "key": "growlNormal",
+            "move": "Growl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "100%",
+            "effect": "Lowers the target's Attack by one stage.",
+            "level": 1
+        },
+        {
+            "key": "hypnosisPsychic",
+            "move": "Hypnosis",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "60%",
+            "effect": "Puts the target to sleep.",
+            "level": 1
+        },
+        {
+            "key": "scratchNormal",
+            "move": "Scratch",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "swiftNormal",
+            "move": "Swift",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "60",
+            "pp": "20",
+            "acc": null,
+            "effect": "Never misses.",
+            "level": 1
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 3
+        },
+        {
+            "key": "fakeOutNormal",
+            "move": "Fake Out",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "attacks with a priority of +3 and causes the target to flinch if it hits.",
+            "level": 6
+        },
+        {
+            "key": "tauntDark",
+            "move": "Taunt",
+            "Types": [
+                "dark"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Opponent can only use moves that attack.",
+            "level": 9
+        },
+        {
+            "key": "payDayNormal",
+            "move": "Pay Day",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Scatters money on the ground worth five times the user's level.",
+            "level": 12
+        },
+        {
+            "key": "feintNormal",
+            "move": "Feint",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "30",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "only hits if the target used Protect or Detect in the same turn.",
+            "level": 15
+        },
+        {
+            "key": "furySwipesNormal",
+            "move": "Fury Swipes",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "18",
+            "pp": "15",
+            "acc": "80%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 19
+        },
+        {
+            "key": "screechNormal",
+            "move": "Screech",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "85%",
+            "effect": "Lowers the target's Defense by two stages.",
+            "level": 23
+        },
+        {
+            "key": "slashNormal",
+            "move": "Slash",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has an increased chance for a critical hit.",
+            "level": 27
+        },
+        {
+            "key": "nastyPlotDark",
+            "move": "Nasty Plot",
+            "Types": [
+                "dark"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "raises the user's Special Attack by two stages.",
+            "level": 37
+        },
+        {
+            "key": "playRoughFairy",
+            "move": "Play Rough",
+            "Types": [
+                "fairy"
+            ],
+            "class": "Physical",
+            "pow": "90",
+            "pp": "10",
+            "acc": "90%",
+            "effect": "deals damage and has a 10% chance of lowering the target's Attack by one stage.",
+            "level": 47
+        }
+    ],
+    "types": [
+        {
+            "key": "normal",
+            "name": "normal",
+            "label": "Normal",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting"
+                ],
+                "doubleTo": null,
+                "halfFrom": null,
+                "halfTo": [
+                    "rock",
+                    "steel"
+                ],
+                "noneFrom": [
+                    "ghost"
+                ],
+                "noneTo": [
+                    "ghost"
+                ]
+            }
+        }
+    ]
+}

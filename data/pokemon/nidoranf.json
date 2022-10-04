@@ -1,0 +1,380 @@
+{
+    "id": 29,
+    "speciesId": 29,
+    "key": "nidoranf",
+    "label": "Nidoran Female",
+    "genderLabel": "Nidoran ♀",
+    "spawns": [
+        {
+            "pokemonId": 29,
+            "area": "Route 22",
+            "rate": "20%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "nidoranf"
+        },
+        {
+            "pokemonId": 29,
+            "area": "Route 10",
+            "rate": "15%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "nidoranf"
+        },
+        {
+            "pokemonId": 29,
+            "area": "Route 9",
+            "rate": "15%",
+            "levels": "17-22",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "nidoranf"
+        },
+        {
+            "pokemonId": 29,
+            "area": "Route 23",
+            "rate": "10%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "nidoranf"
+        }
+    ],
+    "index": 28,
+    "tms": [
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "health",
+            "label": "Health",
+            "affects": "hp",
+            "Pokemons": [
+                "caterpie",
+                "nidoranf",
+                "nidorina",
+                "nidoqueen",
+                "clefairy",
+                "clefable",
+                "jigglypuff",
+                "wigglytuff",
+                "slowpoke",
+                "grimer",
+                "muk",
+                "lickitung",
+                "chansey",
+                "kangaskhan",
+                "lapras",
+                "ditto",
+                "vaporeon",
+                "snorlax",
+                "mew"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "impish",
+        "label": "Impish",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "growlNormal",
+            "move": "Growl",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "100%",
+            "effect": "Lowers the target's Attack by one stage.",
+            "level": 1
+        },
+        {
+            "key": "scratchNormal",
+            "move": "Scratch",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 3
+        },
+        {
+            "key": "poisonStingPoison",
+            "move": "Poison Sting",
+            "Types": [
+                "poison"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Has a 30% chance to poison the target.",
+            "level": 6
+        },
+        {
+            "key": "doubleKickFighting",
+            "move": "Double Kick",
+            "Types": [
+                "fighting"
+            ],
+            "class": "Physical",
+            "pow": "30",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Hits twice in one turn.",
+            "level": 9
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 12
+        },
+        {
+            "key": "helpingHandNormal",
+            "move": "Helping Hand",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "boosts the power of the partner's move.",
+            "level": 15
+        },
+        {
+            "key": "toxicPoison",
+            "move": "Toxic",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Badly poisons the target, inflicting more damage every turn.",
+            "level": 18
+        },
+        {
+            "key": "furySwipesNormal",
+            "move": "Fury Swipes",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "18",
+            "pp": "15",
+            "acc": "80%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 21
+        },
+        {
+            "key": "crunchDark",
+            "move": "Crunch",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 20% chance of lowering the target's Defense by one stage.",
+            "level": 24
+        },
+        {
+            "key": "superFangNormal",
+            "move": "Super Fang",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "1",
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Inflicts damage equal to half the target's HP.",
+            "level": 27
+        }
+    ],
+    "types": [
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        }
+    ]
+}

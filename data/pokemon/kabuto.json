@@ -1,0 +1,562 @@
+{
+    "id": 140,
+    "speciesId": 140,
+    "key": "kabuto",
+    "label": "Kabuto",
+    "spawns": [],
+    "index": 139,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm25",
+            "item": "TM25",
+            "label": "Waterfall",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm29",
+            "item": "TM29",
+            "label": "Scald",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cerulean City",
+                "Defeat Gym Leader Misty"
+            ]
+        },
+        {
+            "key": "tm47",
+            "item": "TM47",
+            "label": "Surf",
+            "Types": [
+                "Water"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Route 15"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm56",
+            "item": "TM56",
+            "label": "Stealth Rock",
+            "Types": [
+                "Rock"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Deals either 1/32, 1/16, 1/8, 1/4 or 1/2 opponent's max HP in damage when it switches into battle, depending on type.",
+            "howToGet": [
+                "Victory Road",
+                "1F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "mighty",
+            "label": "Mighty",
+            "affects": "atk",
+            "Pokemons": [
+                "beedrill",
+                "ekans",
+                "arbok",
+                "nidoranm",
+                "nidorino",
+                "nidoking",
+                "paras",
+                "parasect",
+                "mankey",
+                "primeape",
+                "growlithe",
+                "arcanine",
+                "machop",
+                "machoke",
+                "machamp",
+                "bellsprout",
+                "weepinbell",
+                "victreebel",
+                "farfetchd",
+                "doduo",
+                "dodrio",
+                "muk",
+                "krabby",
+                "kingler",
+                "hitmonlee",
+                "rhydon",
+                "goldeen",
+                "seaking",
+                "scyther",
+                "pinsir",
+                "tauros",
+                "gyarados",
+                "flareon",
+                "kabuto",
+                "kabutops",
+                "dratini",
+                "dragonair",
+                "dragonite",
+                "meltan",
+                "melmetal"
+            ]
+        },
+        {
+            "key": "tough",
+            "label": "Tough",
+            "affects": "spDef",
+            "Pokemons": [
+                "squirtle",
+                "wartortle",
+                "metapod",
+                "kakuna",
+                "sandshrew",
+                "sandslash",
+                "paras",
+                "parasect",
+                "poliwrath",
+                "geodude",
+                "graveler",
+                "golem",
+                "slowbro",
+                "shellder",
+                "cloyster",
+                "onix",
+                "exeggcute",
+                "cubone",
+                "marowak",
+                "koffing",
+                "weezing",
+                "rhyhorn",
+                "tangela",
+                "seadra",
+                "omanyte",
+                "omastar",
+                "kabuto"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "lax",
+        "label": "Lax",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Green",
+                "color": "#73e68a",
+                "iv": {
+                    "label": "Special Defense",
+                    "shortLabel": "Sp. Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "scratchNormal",
+            "move": "Scratch",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "hardenNormal",
+            "move": "Harden",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Raises the user's Defense by one stage.",
+            "level": 6
+        },
+        {
+            "key": "leerNormal",
+            "move": "Leer",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 12
+        },
+        {
+            "key": "absorbGrass",
+            "move": "Absorb",
+            "Types": [
+                "grass"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": null,
+            "acc": null,
+            "effect": null,
+            "level": 18
+        },
+        {
+            "key": "aquaJetWater",
+            "move": "Aqua Jet",
+            "Types": [
+                "water"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "deals damage and has a priority of +1.Moves with a higher priority always go first.",
+            "level": 24
+        },
+        {
+            "key": "rockThrowRock",
+            "move": "Rock Throw",
+            "Types": [
+                "rock"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "15",
+            "acc": "90%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 30
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 36
+        },
+        {
+            "key": "rockSlideRock",
+            "move": "Rock Slide",
+            "Types": [
+                "rock"
+            ],
+            "class": "Physical",
+            "pow": "75",
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 42
+        },
+        {
+            "key": "leechLifeBug",
+            "move": "Leech Life",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "20",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Heals the user by half the damage inflicted.",
+            "level": 48
+        }
+    ],
+    "types": [
+        {
+            "key": "rock",
+            "name": "rock",
+            "label": "Rock",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting",
+                    "ground",
+                    "steel",
+                    "water",
+                    "grass"
+                ],
+                "doubleTo": [
+                    "flying",
+                    "bug",
+                    "fire",
+                    "ice"
+                ],
+                "halfFrom": [
+                    "normal",
+                    "flying",
+                    "poison",
+                    "fire"
+                ],
+                "halfTo": [
+                    "fighting",
+                    "ground",
+                    "steel"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        },
+        {
+            "key": "water",
+            "name": "water",
+            "label": "Water",
+            "dmg": {
+                "doubleFrom": [
+                    "grass",
+                    "electric"
+                ],
+                "doubleTo": [
+                    "ground",
+                    "rock",
+                    "fire"
+                ],
+                "halfFrom": [
+                    "steel",
+                    "fire",
+                    "water",
+                    "ice"
+                ],
+                "halfTo": [
+                    "water",
+                    "grass",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "id": 132,
+    "speciesId": 132,
+    "key": "ditto",
+    "label": "Ditto",
+    "spawns": [
+        {
+            "pokemonId": 132,
+            "area": "Pokemon Mansion",
+            "rate": "10%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "4F",
+            "Pokemon": "ditto"
+        },
+        {
+            "pokemonId": 132,
+            "area": "Cerulean Cave",
+            "rate": "5%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "ditto"
+        },
+        {
+            "pokemonId": 132,
+            "area": "Cerulean Cave",
+            "rate": "5%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "ditto"
+        },
+        {
+            "pokemonId": 132,
+            "area": "Cerulean Cave",
+            "rate": "5%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "ditto"
+        },
+        {
+            "pokemonId": 132,
+            "area": "Pokemon Mansion",
+            "rate": "1%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "ditto"
+        },
+        {
+            "pokemonId": 132,
+            "area": "Pokemon Mansion",
+            "rate": "1%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "ditto"
+        },
+        {
+            "pokemonId": 132,
+            "area": "Pokemon Mansion",
+            "rate": "1%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "ditto"
+        }
+    ],
+    "index": 131,
+    "tms": null,
+    "candies": [
+        {
+            "key": "health",
+            "label": "Health",
+            "affects": "hp",
+            "Pokemons": [
+                "caterpie",
+                "nidoranf",
+                "nidorina",
+                "nidoqueen",
+                "clefairy",
+                "clefable",
+                "jigglypuff",
+                "wigglytuff",
+                "slowpoke",
+                "grimer",
+                "muk",
+                "lickitung",
+                "chansey",
+                "kangaskhan",
+                "lapras",
+                "ditto",
+                "vaporeon",
+                "snorlax",
+                "mew"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "timid",
+        "label": "Timid",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Red",
+                "color": "#e67373",
+                "iv": {
+                    "label": "Attack",
+                    "shortLabel": "Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "transformNormal",
+            "move": "Transform",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": null,
+            "effect": "User becomes a copy of the target until it leaves battle.",
+            "level": 1
+        }
+    ],
+    "types": [
+        {
+            "key": "normal",
+            "name": "normal",
+            "label": "Normal",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting"
+                ],
+                "doubleTo": null,
+                "halfFrom": null,
+                "halfTo": [
+                    "rock",
+                    "steel"
+                ],
+                "noneFrom": [
+                    "ghost"
+                ],
+                "noneTo": [
+                    "ghost"
+                ]
+            }
+        }
+    ]
+}

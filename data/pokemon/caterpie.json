@@ -1,0 +1,150 @@
+{
+    "id": 10,
+    "speciesId": 10,
+    "key": "caterpie",
+    "label": "Caterpie",
+    "spawns": [
+        {
+            "pokemonId": 10,
+            "area": "Viridian Forest",
+            "rate": "25%",
+            "levels": "03-06",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "caterpie"
+        },
+        {
+            "pokemonId": 10,
+            "area": "Route 2",
+            "rate": "15%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "caterpie"
+        },
+        {
+            "pokemonId": 10,
+            "area": "Route 2",
+            "rate": "15%",
+            "levels": "03-08",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "caterpie"
+        }
+    ],
+    "index": 9,
+    "tms": null,
+    "candies": [
+        {
+            "key": "health",
+            "label": "Health",
+            "affects": "hp",
+            "Pokemons": [
+                "caterpie",
+                "nidoranf",
+                "nidorina",
+                "nidoqueen",
+                "clefairy",
+                "clefable",
+                "jigglypuff",
+                "wigglytuff",
+                "slowpoke",
+                "grimer",
+                "muk",
+                "lickitung",
+                "chansey",
+                "kangaskhan",
+                "lapras",
+                "ditto",
+                "vaporeon",
+                "snorlax",
+                "mew"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "jolly",
+        "label": "Jolly",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "stringShotBug",
+            "move": "String Shot",
+            "Types": [
+                "bug"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": "95%",
+            "effect": "Lowers the target's Speed by one stage.",
+            "level": 1
+        },
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        }
+    ],
+    "types": [
+        {
+            "key": "bug",
+            "name": "bug",
+            "label": "Bug",
+            "dmg": {
+                "doubleFrom": [
+                    "flying",
+                    "rock",
+                    "fire"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "psychic",
+                    "dark"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "ground",
+                    "grass"
+                ],
+                "halfTo": [
+                    "fighting",
+                    "flying",
+                    "poison",
+                    "ghost",
+                    "steel",
+                    "fire",
+                    "fairy"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

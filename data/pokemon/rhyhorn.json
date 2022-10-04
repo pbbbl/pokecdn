@@ -1,0 +1,736 @@
+{
+    "id": 111,
+    "speciesId": 111,
+    "key": "rhyhorn",
+    "label": "Rhyhorn",
+    "spawns": [
+        {
+            "pokemonId": 111,
+            "area": "Cerulean Cave",
+            "rate": "10%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rhyhorn"
+        },
+        {
+            "pokemonId": 111,
+            "area": "Cerulean Cave",
+            "rate": "10%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "rhyhorn"
+        },
+        {
+            "pokemonId": 111,
+            "area": "Cerulean Cave",
+            "rate": "10%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "rhyhorn"
+        },
+        {
+            "pokemonId": 111,
+            "area": "Rock Tunnel",
+            "rate": "10%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rhyhorn"
+        },
+        {
+            "pokemonId": 111,
+            "area": "Rock Tunnel",
+            "rate": "10%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "rhyhorn"
+        },
+        {
+            "pokemonId": 111,
+            "area": "Victory Road",
+            "rate": "10%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rhyhorn"
+        },
+        {
+            "pokemonId": 111,
+            "area": "Victory Road",
+            "rate": "10%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "rhyhorn"
+        },
+        {
+            "pokemonId": 111,
+            "area": "Victory Road",
+            "rate": "10%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "rhyhorn"
+        }
+    ],
+    "index": 110,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm22",
+            "item": "TM22",
+            "label": "Rock Slide",
+            "Types": [
+                "Rock"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "90",
+            "description": "30 per cent chance to make opponent flinch.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "2F",
+                "Defeat Coach Trainer Rita"
+            ]
+        },
+        {
+            "key": "tm26",
+            "item": "TM26",
+            "label": "Poison Jab",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Celadon City",
+                "Man across water next to Rocket Corner"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm34",
+            "item": "TM34",
+            "label": "Dragon Pulse",
+            "Types": [
+                "Dragon"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "85",
+            "accuracy": "100",
+            "description": null,
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "7F"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm37",
+            "item": "TM37",
+            "label": "Flamethrower",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Saffron City",
+                "Silph Co.",
+                "10F"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm41",
+            "item": "TM41",
+            "label": "Earthquake",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "100",
+            "accuracy": "100",
+            "description": "Hits all Pokémon in battle, including any allies or multiple opponents.",
+            "howToGet": [
+                "Viridian City",
+                "Defeat Gym Leader [SPOILER](Giovanni)"
+            ]
+        },
+        {
+            "key": "tm46",
+            "item": "TM46",
+            "label": "Fire Blast",
+            "Types": [
+                "Fire"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "85",
+            "description": "10 per cent chance to burn opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Defeat Gym Leader Blaine"
+            ]
+        },
+        {
+            "key": "tm49",
+            "item": "TM49",
+            "label": "Superpower",
+            "Types": [
+                "Fighting"
+            ],
+            "kind": "Physical",
+            "pp": "5",
+            "damage": "120",
+            "accuracy": "100",
+            "description": "Lowers the user's Attack and Defense stats by one stage.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm56",
+            "item": "TM56",
+            "label": "Stealth Rock",
+            "Types": [
+                "Rock"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Deals either 1/32, 1/16, 1/8, 1/4 or 1/2 opponent's max HP in damage when it switches into battle, depending on type.",
+            "howToGet": [
+                "Victory Road",
+                "1F"
+            ]
+        },
+        {
+            "key": "tm58",
+            "item": "TM58",
+            "label": "Drill Run",
+            "Types": [
+                "Ground"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "80",
+            "accuracy": "95",
+            "description": "3x the usual chance to land a critical hit.",
+            "howToGet": [
+                "Route 17",
+                "Defeat Coach Trainer Grantley"
+            ]
+        },
+        {
+            "key": "tm60",
+            "item": "TM60",
+            "label": "Megahorn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "10",
+            "damage": "120",
+            "accuracy": "85",
+            "description": null,
+            "howToGet": [
+                "Cerulean Cave",
+                "Defeat Coach Trainer Harjit",
+                "You must defeat the Elite 4 first."
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "tough",
+            "label": "Tough",
+            "affects": "spDef",
+            "Pokemons": [
+                "squirtle",
+                "wartortle",
+                "metapod",
+                "kakuna",
+                "sandshrew",
+                "sandslash",
+                "paras",
+                "parasect",
+                "poliwrath",
+                "geodude",
+                "graveler",
+                "golem",
+                "slowbro",
+                "shellder",
+                "cloyster",
+                "onix",
+                "exeggcute",
+                "cubone",
+                "marowak",
+                "koffing",
+                "weezing",
+                "rhyhorn",
+                "tangela",
+                "seadra",
+                "omanyte",
+                "omastar",
+                "kabuto"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "relaxed",
+        "label": "Relaxed",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "hornAttackNormal",
+            "move": "Horn Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "65",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "sandAttackGround",
+            "move": "Sand Attack",
+            "Types": [
+                "ground"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "100%",
+            "effect": "lowers the target's Accuracy by one stage.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "furyAttackNormal",
+            "move": "Fury Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "Hits 2-5 times in one turn.",
+            "level": 7
+        },
+        {
+            "key": "stompNormal",
+            "move": "Stomp",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "65",
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 12
+        },
+        {
+            "key": "rockThrowRock",
+            "move": "Rock Throw",
+            "Types": [
+                "rock"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "15",
+            "acc": "90%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 19
+        },
+        {
+            "key": "drillRunGround",
+            "move": "Drill Run",
+            "Types": [
+                "ground"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "10",
+            "acc": "95%",
+            "effect": "deals damage and has an increased critical hit ratio",
+            "level": 24
+        },
+        {
+            "key": "takeDownNormal",
+            "move": "Take Down",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "90",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "User receives 1/4 the damage it inflicts in recoil.",
+            "level": 31
+        },
+        {
+            "key": "megahornBug",
+            "move": "Megahorn",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "10",
+            "acc": "85%",
+            "effect": "deals damage with no additional effect.",
+            "level": 36
+        },
+        {
+            "key": "rockSlideRock",
+            "move": "Rock Slide",
+            "Types": [
+                "rock"
+            ],
+            "class": "Physical",
+            "pow": "75",
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 43
+        },
+        {
+            "key": "earthquakeGround",
+            "move": "Earthquake",
+            "Types": [
+                "ground"
+            ],
+            "class": "Physical",
+            "pow": "100",
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Inflicts regular damage and can hit Dig users.",
+            "level": 48
+        },
+        {
+            "key": "hornDrillNormal",
+            "move": "Horn Drill",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "1",
+            "pp": "5",
+            "acc": "30%",
+            "effect": "Causes a one-hit KO.",
+            "level": 55
+        }
+    ],
+    "types": [
+        {
+            "key": "ground",
+            "name": "ground",
+            "label": "Ground",
+            "dmg": {
+                "doubleFrom": [
+                    "water",
+                    "grass",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "poison",
+                    "rock",
+                    "steel",
+                    "fire",
+                    "electric"
+                ],
+                "halfFrom": [
+                    "poison",
+                    "rock"
+                ],
+                "halfTo": [
+                    "bug",
+                    "grass"
+                ],
+                "noneFrom": [
+                    "electric"
+                ],
+                "noneTo": [
+                    "flying"
+                ]
+            }
+        },
+        {
+            "key": "rock",
+            "name": "rock",
+            "label": "Rock",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting",
+                    "ground",
+                    "steel",
+                    "water",
+                    "grass"
+                ],
+                "doubleTo": [
+                    "flying",
+                    "bug",
+                    "fire",
+                    "ice"
+                ],
+                "halfFrom": [
+                    "normal",
+                    "flying",
+                    "poison",
+                    "fire"
+                ],
+                "halfTo": [
+                    "fighting",
+                    "ground",
+                    "steel"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}

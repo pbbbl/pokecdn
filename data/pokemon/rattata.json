@@ -1,0 +1,687 @@
+{
+    "id": 19,
+    "speciesId": 19,
+    "key": "rattata",
+    "label": "Rattata",
+    "spawns": [
+        {
+            "pokemonId": 19,
+            "area": "Route 1",
+            "rate": "30%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 22",
+            "rate": "30%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 3",
+            "rate": "30%",
+            "levels": "03-08",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 5",
+            "rate": "30%",
+            "levels": "11-16",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 11",
+            "rate": "25%",
+            "levels": "13-18",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 4",
+            "rate": "25%",
+            "levels": "07-12",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Pokemon Mansion",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Pokemon Mansion",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Pokemon Mansion",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Pokemon Mansion",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "4F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 2",
+            "rate": "20%",
+            "levels": "03-04",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 2",
+            "rate": "20%",
+            "levels": "03-08",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 6",
+            "rate": "20%",
+            "levels": "11-16",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 9",
+            "rate": "20%",
+            "levels": "17-22",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 10",
+            "rate": "15%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 16",
+            "rate": "15%",
+            "levels": "31-36",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 18",
+            "rate": "15%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 7",
+            "rate": "15%",
+            "levels": "22-27",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 8",
+            "rate": "15%",
+            "levels": "22-27",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 21",
+            "rate": "10%",
+            "levels": "37-42",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        },
+        {
+            "pokemonId": 19,
+            "area": "Route 17",
+            "rate": "5%",
+            "levels": "33-38",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "rattata"
+        }
+    ],
+    "index": 18,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm02",
+            "item": "TM02",
+            "label": "Taunt",
+            "Types": [
+                "Dark"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Opponent can only use damage-dealing moves for three turns.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Researcher in Lab"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        null,
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm16",
+            "item": "TM16",
+            "label": "Thunder Wave",
+            "Types": [
+                "Electric"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is paralyzed.",
+            "howToGet": [
+                "Route 25",
+                "In hedge maze"
+            ]
+        },
+        {
+            "key": "tm18",
+            "item": "TM18",
+            "label": "U-Turn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "User deals damage and then switches out for another party Pokémon.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm19",
+            "item": "TM19",
+            "label": "Iron Tail",
+            "Types": [
+                "Steel"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "100",
+            "accuracy": "75",
+            "description": "30 per cent chance to lower opponent's Defense by one stage.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm36",
+            "item": "TM36",
+            "label": "Thunderbolt",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Vermilion City",
+                "Defeat Gym Leader Lt. Surge"
+            ]
+        },
+        {
+            "key": "tm38",
+            "item": "TM38",
+            "label": "Thunder",
+            "Types": [
+                "Electric"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "30 per cent chance to paralyze opponent.",
+            "howToGet": [
+                "Power Plant",
+                "South East area near sandbags"
+            ]
+        },
+        {
+            "key": "tm43",
+            "item": "TM43",
+            "label": "Shadow Ball",
+            "Types": [
+                "Ghost"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm51",
+            "item": "TM51",
+            "label": "Blizzard",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "110",
+            "accuracy": "70",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Victory Road",
+                "3F"
+            ]
+        },
+        {
+            "key": "tm55",
+            "item": "TM55",
+            "label": "Ice Beam",
+            "Types": [
+                "Ice"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "10 per cent chance to freeze opponent.",
+            "howToGet": [
+                "Seafoam Islands",
+                "B2F"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "jolly",
+        "label": "Jolly",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "tackleNormal",
+            "move": "Tackle",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "50",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "tailWhipNormal",
+            "move": "Tail Whip",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Lowers the target's Defense by one stage.",
+            "level": 3
+        },
+        {
+            "key": "quickAttackNormal",
+            "move": "Quick Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 6
+        },
+        {
+            "key": "focusEnergyNormal",
+            "move": "Focus Energy",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Increases the user's chance to score a critical hit.",
+            "level": 9
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 12
+        },
+        {
+            "key": "superFangNormal",
+            "move": "Super Fang",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "1",
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Inflicts damage equal to half the target's HP.",
+            "level": 15
+        },
+        {
+            "key": "crunchDark",
+            "move": "Crunch",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 20% chance of lowering the target's Defense by one stage.",
+            "level": 18
+        },
+        {
+            "key": "hyperFangNormal",
+            "move": "Hyper Fang",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "15",
+            "acc": "90%",
+            "effect": "Has a 10% chance to make the target flinch.",
+            "level": 21
+        },
+        {
+            "key": "suckerPunchDark",
+            "move": "Sucker Punch",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "70",
+            "pp": "5",
+            "acc": "100%",
+            "effect": "Deals damage and has a priority of +1. However, the move only works if the target uses a direct attack in the same turn. If the target is not preparing an attack, Sucker Punch will fail.",
+            "level": 24
+        },
+        {
+            "key": "doubleEdgeNormal",
+            "move": "Double-Edge",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage, but the user receives 1?3 of the damage it inflicted in recoil.",
+            "level": 27
+        }
+    ],
+    "types": [
+        {
+            "key": "normal",
+            "name": "normal",
+            "label": "Normal",
+            "dmg": {
+                "doubleFrom": [
+                    "fighting"
+                ],
+                "doubleTo": null,
+                "halfFrom": null,
+                "halfTo": [
+                    "rock",
+                    "steel"
+                ],
+                "noneFrom": [
+                    "ghost"
+                ],
+                "noneTo": [
+                    "ghost"
+                ]
+            }
+        }
+    ]
+}

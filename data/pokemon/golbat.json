@@ -1,0 +1,772 @@
+{
+    "id": 42,
+    "speciesId": 42,
+    "key": "golbat",
+    "label": "Golbat",
+    "spawns": [
+        {
+            "pokemonId": 42,
+            "area": "Cerulean Cave",
+            "rate": "20%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Rock Tunnel",
+            "rate": "20%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Seafoam Islands",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Seafoam Islands",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Seafoam Islands",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Seafoam Islands",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "4F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Seafoam Islands",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "5F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Seafoam Islands",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "6F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Seafoam Islands",
+            "rate": "20%",
+            "levels": "39-44",
+            "encounter": "normal",
+            "floor": "7F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Cerulean Cave",
+            "rate": "15%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Cerulean Cave",
+            "rate": "15%",
+            "levels": "51-56",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Victory Road",
+            "rate": "15%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Victory Road",
+            "rate": "15%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Victory Road",
+            "rate": "15%",
+            "levels": "41-46",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Rock Tunnel",
+            "rate": "10%",
+            "levels": "18-23",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Pokemon Tower",
+            "rate": "5%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Pokemon Tower",
+            "rate": "5%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "2F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Pokemon Tower",
+            "rate": "5%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "3F",
+            "Pokemon": "golbat"
+        },
+        {
+            "pokemonId": 42,
+            "area": "Pokemon Tower",
+            "rate": "5%",
+            "levels": "27-32",
+            "encounter": "normal",
+            "floor": "4F",
+            "Pokemon": "golbat"
+        }
+    ],
+    "index": 41,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm02",
+            "item": "TM02",
+            "label": "Taunt",
+            "Types": [
+                "Dark"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": "100",
+            "description": "Opponent can only use damage-dealing moves for three turns.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Researcher in Lab"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm14",
+            "item": "TM14",
+            "label": "Fly",
+            "Types": [
+                "Flying"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "90",
+            "accuracy": "95",
+            "description": "User flys into the sky on the first turn, making it invulnerable to most attacks, and attacks on the second turn.",
+            "howToGet": [
+                "Route 16",
+                "Talk to lady in northern house"
+            ]
+        },
+        {
+            "key": "tm18",
+            "item": "TM18",
+            "label": "U-Turn",
+            "Types": [
+                "Bug"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "User deals damage and then switches out for another party Pokémon.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm43",
+            "item": "TM43",
+            "label": "Shadow Ball",
+            "Types": [
+                "Ghost"
+            ],
+            "kind": "Special",
+            "pp": "15",
+            "damage": "80",
+            "accuracy": "100",
+            "description": "20 per cent chance to lower opponent's Special Defence.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm50",
+            "item": "TM50",
+            "label": "Roost",
+            "Types": [
+                "Flying"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "Restores 50 per cent of user's max HP.",
+            "howToGet": [
+                "Route 12",
+                "Gatehouse",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "quick",
+            "label": "Quick",
+            "affects": "speed",
+            "Pokemons": [
+                "charmander",
+                "charmeleon",
+                "weedle",
+                "pidgey",
+                "pidgeotto",
+                "pidgeot",
+                "rattata",
+                "raticate",
+                "spearow",
+                "fearow",
+                "pikachu",
+                "raichu",
+                "vulpix",
+                "ninetales",
+                "zubat",
+                "golbat",
+                "venomoth",
+                "diglett",
+                "dugtrio",
+                "meowth",
+                "persian",
+                "poliwag",
+                "poliwhirl",
+                "ponyta",
+                "rapidash",
+                "voltorb",
+                "electrode",
+                "staryu",
+                "starmie",
+                "electabuzz",
+                "tauros",
+                "magikarp",
+                "jolteon",
+                "aerodactyl"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "jolly",
+        "label": "Jolly",
+        "choices": [
+            {
+                "label": "Pink",
+                "color": "#db89e0",
+                "iv": {
+                    "label": "Speed",
+                    "shortLabel": "Speed"
+                }
+            },
+            {
+                "label": "Blue",
+                "color": "#7395e6",
+                "iv": {
+                    "label": "Special Attack",
+                    "shortLabel": "Sp. Atk"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "crunchDark",
+            "move": "Crunch",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 20% chance of lowering the target's Defense by one stage.",
+            "level": 0
+        },
+        {
+            "key": "absorbGrass",
+            "move": "Absorb",
+            "Types": [
+                "grass"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": null,
+            "acc": null,
+            "effect": null,
+            "level": 1
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 1
+        },
+        {
+            "key": "crunchDark",
+            "move": "Crunch",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "80",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "deals damage and has a 20% chance of lowering the target's Defense by one stage.",
+            "level": 1
+        },
+        {
+            "key": "quickAttackNormal",
+            "move": "Quick Attack",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "40",
+            "pp": "30",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "supersonicNormal",
+            "move": "Supersonic",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "55%",
+            "effect": "Confuses the target.",
+            "level": 1
+        },
+        {
+            "key": "whirlwindNormal",
+            "move": "Whirlwind",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": "100%",
+            "effect": "Immediately ends wild battles. Forces trainers to switch Pokemon.",
+            "level": 1
+        },
+        {
+            "key": "wingAttackFlying",
+            "move": "Wing Attack",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 1
+        },
+        {
+            "key": "wingAttackFlying",
+            "move": "Wing Attack",
+            "Types": [
+                "flying"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 4
+        },
+        {
+            "key": "biteDark",
+            "move": "Bite",
+            "Types": [
+                "dark"
+            ],
+            "class": "Physical",
+            "pow": "60",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 30% chance to make the target flinch.",
+            "level": 8
+        },
+        {
+            "key": "swiftNormal",
+            "move": "Swift",
+            "Types": [
+                "normal"
+            ],
+            "class": "Special",
+            "pow": "60",
+            "pp": "20",
+            "acc": null,
+            "effect": "Never misses.",
+            "level": 12
+        },
+        {
+            "key": "confuseRayGhost",
+            "move": "Confuse Ray",
+            "Types": [
+                "ghost"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "100%",
+            "effect": "Confuses the target.",
+            "level": 17
+        },
+        {
+            "key": "hazeIce",
+            "move": "Haze",
+            "Types": [
+                "ice"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": null,
+            "effect": "Resets all Pokemon's stats, accuracy, and evasion.",
+            "level": 20
+        },
+        {
+            "key": "leechLifeBug",
+            "move": "Leech Life",
+            "Types": [
+                "bug"
+            ],
+            "class": "Physical",
+            "pow": "20",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Heals the user by half the damage inflicted.",
+            "level": 31
+        },
+        {
+            "key": "toxicPoison",
+            "move": "Toxic",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Badly poisons the target, inflicting more damage every turn.",
+            "level": 40
+        },
+        {
+            "key": "airSlashFlying",
+            "move": "Air Slash",
+            "Types": [
+                "flying"
+            ],
+            "class": "Special",
+            "pow": "75",
+            "pp": "20",
+            "acc": "95%",
+            "effect": "deals damage and has a 30% chance of causing the target to flinch",
+            "level": 51
+        }
+    ],
+    "types": [
+        {
+            "key": "poison",
+            "name": "poison",
+            "label": "Poison",
+            "dmg": {
+                "doubleFrom": [
+                    "ground",
+                    "psychic"
+                ],
+                "doubleTo": [
+                    "grass",
+                    "fairy"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "poison",
+                    "bug",
+                    "grass",
+                    "fairy"
+                ],
+                "halfTo": [
+                    "poison",
+                    "ground",
+                    "rock",
+                    "ghost"
+                ],
+                "noneFrom": null,
+                "noneTo": [
+                    "steel"
+                ]
+            }
+        },
+        {
+            "key": "flying",
+            "name": "flying",
+            "label": "Flying",
+            "dmg": {
+                "doubleFrom": [
+                    "rock",
+                    "electric",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfFrom": [
+                    "fighting",
+                    "bug",
+                    "grass"
+                ],
+                "halfTo": [
+                    "rock",
+                    "steel",
+                    "electric"
+                ],
+                "noneFrom": [
+                    "ground"
+                ],
+                "noneTo": null
+            }
+        }
+    ]
+}

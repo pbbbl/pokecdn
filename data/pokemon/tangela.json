@@ -1,0 +1,495 @@
+{
+    "id": 114,
+    "speciesId": 114,
+    "key": "tangela",
+    "label": "Tangela",
+    "spawns": [
+        {
+            "pokemonId": 114,
+            "area": "Route 21",
+            "rate": "15%",
+            "levels": "37-42",
+            "encounter": "normal",
+            "floor": "1F",
+            "Pokemon": "tangela"
+        }
+    ],
+    "index": 113,
+    "tms": [
+        {
+            "key": "tm01",
+            "item": "TM01",
+            "label": "Headbutt",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "15",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "30 percent chance to make opponent flinch.",
+            "howToGet": [
+                "Pewter City",
+                "Defeat Gym Leader Brock"
+            ]
+        },
+        {
+            "key": "tm05",
+            "item": "TM05",
+            "label": "Rest",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User falls alseep for two turns, fully restores HP and status.",
+            "howToGet": [
+                "Celadon City",
+                "Team Rocket Hideout",
+                "B2F"
+            ]
+        },
+        {
+            "key": "tm07",
+            "item": "TM07",
+            "label": "Protect",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User evades all damage and effects from next attack, chance to fail increases each consecutive use.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Roof",
+                "Give lemonade to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm08",
+            "item": "TM08",
+            "label": "Substitute",
+            "Types": [
+                "Normal"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": null,
+            "description": "User loses 1/4 of its HP and creates a dummy which takes damage instead of user until dummy is knocked out.",
+            "howToGet": [
+                "Saffron City",
+                "Copycat's House",
+                "Show Copycat a Clefairy"
+            ]
+        },
+        {
+            "key": "tm09",
+            "item": "TM09",
+            "label": "Reflect",
+            "Types": [
+                "Psychic"
+            ],
+            "kind": null,
+            "pp": "20",
+            "damage": null,
+            "accuracy": null,
+            "description": "Damage from opponent's Physical Attacks halved for 5 turns.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store Roof",
+                "Give soda pop to girl next to vending machines"
+            ]
+        },
+        {
+            "key": "tm12",
+            "item": "TM12",
+            "label": "Facade",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Physical",
+            "pp": "20",
+            "damage": "70",
+            "accuracy": "100",
+            "description": "Deals double damage if the user is poisoned, burned or paralyzed.",
+            "howToGet": [
+                "Route 7",
+                "Defeat Coach Trainer Alpesh"
+            ]
+        },
+        {
+            "key": "tm27",
+            "item": "TM27",
+            "label": "Toxic",
+            "Types": [
+                "Poison"
+            ],
+            "kind": null,
+            "pp": "10",
+            "damage": null,
+            "accuracy": "90",
+            "description": "Opponent is badly poisoned, with poison damage increasing each turn.",
+            "howToGet": [
+                "Fuchsia City",
+                "Defeat Gym Leader Koga"
+            ]
+        },
+        {
+            "key": "tm45",
+            "item": "TM45",
+            "label": "Solar Beam",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "200",
+            "accuracy": "100",
+            "description": "User charges up during first turn, dealing damage on the second.",
+            "howToGet": [
+                "Victory Road",
+                "2F"
+            ]
+        },
+        {
+            "key": "tm48",
+            "item": "TM48",
+            "label": "Hyper Beam",
+            "Types": [
+                "Normal"
+            ],
+            "kind": "Special",
+            "pp": "5",
+            "damage": "150",
+            "accuracy": "90",
+            "description": "Attacks on the first turn, is unable to attack on the second turn.",
+            "howToGet": [
+                "Celadon City",
+                "Department Store",
+                "2F",
+                "Purchase for $XX,XXX"
+            ]
+        },
+        {
+            "key": "tm52",
+            "item": "TM52",
+            "label": "Sludge Bomb",
+            "Types": [
+                "Poison"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "90",
+            "accuracy": "100",
+            "description": "30 per cent chance to poison opponent.",
+            "howToGet": [
+                "Cinnabar Island",
+                "Pokemon Mansion",
+                "B1F"
+            ]
+        },
+        {
+            "key": "tm53",
+            "item": "TM53",
+            "label": "Mega Drain",
+            "Types": [
+                "Grass"
+            ],
+            "kind": "Special",
+            "pp": "10",
+            "damage": "75",
+            "accuracy": "100",
+            "description": "Restores user's HP by half of the damage the opponent takes from it.",
+            "howToGet": [
+                "Celadon City",
+                "Defeat Gym Leader Erika"
+            ]
+        }
+    ],
+    "candies": [
+        {
+            "key": "tough",
+            "label": "Tough",
+            "affects": "spDef",
+            "Pokemons": [
+                "squirtle",
+                "wartortle",
+                "metapod",
+                "kakuna",
+                "sandshrew",
+                "sandslash",
+                "paras",
+                "parasect",
+                "poliwrath",
+                "geodude",
+                "graveler",
+                "golem",
+                "slowbro",
+                "shellder",
+                "cloyster",
+                "onix",
+                "exeggcute",
+                "cubone",
+                "marowak",
+                "koffing",
+                "weezing",
+                "rhyhorn",
+                "tangela",
+                "seadra",
+                "omanyte",
+                "omastar",
+                "kabuto"
+            ]
+        }
+    ],
+    "nature": {
+        "key": "lax",
+        "label": "Lax",
+        "choices": [
+            {
+                "label": "Yellow",
+                "color": "#e0e673",
+                "iv": {
+                    "label": "Defense",
+                    "shortLabel": "Def"
+                }
+            },
+            {
+                "label": "Green",
+                "color": "#73e68a",
+                "iv": {
+                    "label": "Special Defense",
+                    "shortLabel": "Sp. Def"
+                }
+            }
+        ]
+    },
+    "moves": [
+        {
+            "key": "absorbGrass",
+            "move": "Absorb",
+            "Types": [
+                "grass"
+            ],
+            "class": "Special",
+            "pow": "20",
+            "pp": null,
+            "acc": null,
+            "effect": null,
+            "level": 1
+        },
+        {
+            "key": "constrictNormal",
+            "move": "Constrict",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "10",
+            "pp": "35",
+            "acc": "100%",
+            "effect": "Has a 10% chance to lower the target's Speed by one stage.",
+            "level": 1
+        },
+        {
+            "key": "sleepPowderGrass",
+            "move": "Sleep Powder",
+            "Types": [
+                "grass"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "15",
+            "acc": "75%",
+            "effect": "Puts the target to sleep.",
+            "level": 5
+        },
+        {
+            "key": "confusionPsychic",
+            "move": "Confusion",
+            "Types": [
+                "psychic"
+            ],
+            "class": "Special",
+            "pow": "50",
+            "pp": "25",
+            "acc": "100%",
+            "effect": "Has a 10% chance to confuse the target.",
+            "level": 10
+        },
+        {
+            "key": "vineWhipGrass",
+            "move": "Vine Whip",
+            "Types": [
+                "grass"
+            ],
+            "class": "Physical",
+            "pow": "35",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Inflicts regular damage with no additional effect.",
+            "level": 15
+        },
+        {
+            "key": "poisonPowderPoison",
+            "move": "Poison Powder",
+            "Types": [
+                "poison"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "35",
+            "acc": "75%",
+            "effect": "causes the target to become poisoned. Poisoned Pokémon lose 1?8 of their maximum HP each turn.",
+            "level": 17
+        },
+        {
+            "key": "bindNormal",
+            "move": "Bind",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "15",
+            "pp": "20",
+            "acc": "85%",
+            "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+            "level": 22
+        },
+        {
+            "key": "growthNormal",
+            "move": "Growth",
+            "Types": [
+                "normal"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "40",
+            "acc": null,
+            "effect": "Raises the user's Attack and Special Attack by one stage.",
+            "level": 27
+        },
+        {
+            "key": "stunSporeGrass",
+            "move": "Stun Spore",
+            "Types": [
+                "grass"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "30",
+            "acc": "75%",
+            "effect": "Paralyzes the target.",
+            "level": 29
+        },
+        {
+            "key": "megaDrainGrass",
+            "move": "Mega Drain",
+            "Types": [
+                "grass"
+            ],
+            "class": "Special",
+            "pow": "40",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Heals the user by half the damage inflicted.",
+            "level": 34
+        },
+        {
+            "key": "leechSeedGrass",
+            "move": "Leech Seed",
+            "Types": [
+                "grass"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "10",
+            "acc": "90%",
+            "effect": "Seeds the target, stealing HP from it every turn.",
+            "level": 39
+        },
+        {
+            "key": "slamNormal",
+            "move": "Slam",
+            "Types": [
+                "normal"
+            ],
+            "class": "Physical",
+            "pow": "85",
+            "pp": "15",
+            "acc": "100%",
+            "effect": "Has a 30% chance to paralyze the target.",
+            "level": 44
+        },
+        {
+            "key": "amnesiaPsychic",
+            "move": "Amnesia",
+            "Types": [
+                "psychic"
+            ],
+            "class": "None",
+            "pow": null,
+            "pp": "20",
+            "acc": null,
+            "effect": "Raises the user's Special Defense by two stages.",
+            "level": 49
+        },
+        {
+            "key": "powerWhipGrass",
+            "move": "Power Whip",
+            "Types": [
+                "grass"
+            ],
+            "class": "Physical",
+            "pow": "120",
+            "pp": "10",
+            "acc": "85%",
+            "effect": "deals damage with no additional effect.",
+            "level": 54
+        }
+    ],
+    "types": [
+        {
+            "key": "grass",
+            "name": "grass",
+            "label": "Grass",
+            "dmg": {
+                "doubleFrom": [
+                    "flying",
+                    "poison",
+                    "bug",
+                    "fire",
+                    "ice"
+                ],
+                "doubleTo": [
+                    "ground",
+                    "rock",
+                    "water"
+                ],
+                "halfFrom": [
+                    "ground",
+                    "water",
+                    "grass",
+                    "electric"
+                ],
+                "halfTo": [
+                    "flying",
+                    "poison",
+                    "bug",
+                    "steel",
+                    "fire",
+                    "grass",
+                    "dragon"
+                ],
+                "noneFrom": null,
+                "noneTo": null
+            }
+        }
+    ]
+}
